@@ -13,9 +13,879 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-06-16T15:24:56.948+02:00
+  lastUpdatedAtString: 2020-06-16T15:25:57.542+02:00
   initializedAtString: 2020-06-16T15:24:56.948+02:00
   log:
+  - commitID: 414e5941d6788c0f06574eb1052816da6784f8ba
+    mergeA: 
+    mergeB: 
+    authorName: Maximilian Brandl
+    authorEmail: acc+git@brandlmax.com
+    commitEmail: acc+git@brandlmax.com
+    commitName: Maximilian Brandl
+    summary: Github Plugin
+    description: 
+    timeString: 2020-06-16T15:25:56.000+02:00
+    commitTimeString: 2020-06-16T15:25:56.000+02:00
+    changes:
+    - path: UnityPrototype/Assets/Plugins.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins.meta
+      projectPath: Assets/Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub.meta
+      projectPath: Assets/Plugins/GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor.meta
+      projectPath: Assets/Plugins/GitHub/Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/System.Threading.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/System.Threading.dll
+      projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+      projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+      projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/credits.txt
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/credits.txt
+      projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/credits.txt.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/credits.txt.meta
+      projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/eula.txt
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/eula.txt
+      projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/eula.txt.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/eula.txt.meta
+      projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/libsfw.bundle
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/libsfw.bundle
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/libsfw.so
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/libsfw.so
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/sfw.net.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/sfw.net.dll
+      projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/x64.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/x64.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/x86.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/x86.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/APIUpdater/project-dependencies.graph
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/APIUpdater/project-dependencies.graph
+      projectPath: Library/APIUpdater/project-dependencies.graph
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ArtifactDB
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ArtifactDB
+      projectPath: Library/ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/00/003be9321fd67853f57ef515ac9f62fc
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/00/003be9321fd67853f57ef515ac9f62fc
+      projectPath: Library/Artifacts/00/003be9321fd67853f57ef515ac9f62fc
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/02/02da9396efe96fa60a531efeb7aab465
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/02/02da9396efe96fa60a531efeb7aab465
+      projectPath: Library/Artifacts/02/02da9396efe96fa60a531efeb7aab465
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/03/03036b574a5db4ce3288a65636c660d4
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/03/03036b574a5db4ce3288a65636c660d4
+      projectPath: Library/Artifacts/03/03036b574a5db4ce3288a65636c660d4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/03/03228b295b2bd2a54264b6dfbc2a2ba2
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/03/03228b295b2bd2a54264b6dfbc2a2ba2
+      projectPath: Library/Artifacts/03/03228b295b2bd2a54264b6dfbc2a2ba2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/03/03ca1b2fa4595bdf901f4124a15cb575
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/03/03ca1b2fa4595bdf901f4124a15cb575
+      projectPath: Library/Artifacts/03/03ca1b2fa4595bdf901f4124a15cb575
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/13/13ed841e5523140704ad1cbbad454c94
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/13/13ed841e5523140704ad1cbbad454c94
+      projectPath: Library/Artifacts/13/13ed841e5523140704ad1cbbad454c94
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/1a/1a1a566757be8581443656002ec5e58a
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/1a/1a1a566757be8581443656002ec5e58a
+      projectPath: Library/Artifacts/1a/1a1a566757be8581443656002ec5e58a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/1b/1b05a7ca43c4ae8eb40f01409a4da37d
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/1b/1b05a7ca43c4ae8eb40f01409a4da37d
+      projectPath: Library/Artifacts/1b/1b05a7ca43c4ae8eb40f01409a4da37d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/22/22449e104c28ed1925544202a75d5973
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/22/22449e104c28ed1925544202a75d5973
+      projectPath: Library/Artifacts/22/22449e104c28ed1925544202a75d5973
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/2c/2c0e36b5bd5958f873f0dcf050a6756b
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/2c/2c0e36b5bd5958f873f0dcf050a6756b
+      projectPath: Library/Artifacts/2c/2c0e36b5bd5958f873f0dcf050a6756b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/2c/2c9b60f8321a779f3343c22c53403bce
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/2c/2c9b60f8321a779f3343c22c53403bce
+      projectPath: Library/Artifacts/2c/2c9b60f8321a779f3343c22c53403bce
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/3c/3ca70ba7218a492d4617f5a9991786db
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/3c/3ca70ba7218a492d4617f5a9991786db
+      projectPath: Library/Artifacts/3c/3ca70ba7218a492d4617f5a9991786db
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/40/4022f75a545459e50518067852c41d9f
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/40/4022f75a545459e50518067852c41d9f
+      projectPath: Library/Artifacts/40/4022f75a545459e50518067852c41d9f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/4e/4e30f9aa23e3996d644b1000603bf3b1
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/4e/4e30f9aa23e3996d644b1000603bf3b1
+      projectPath: Library/Artifacts/4e/4e30f9aa23e3996d644b1000603bf3b1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/58/5823b88d439ca2d74f3170472100544d
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/58/5823b88d439ca2d74f3170472100544d
+      projectPath: Library/Artifacts/58/5823b88d439ca2d74f3170472100544d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/60/609696673b45bc8856e10522bcf30997
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/60/609696673b45bc8856e10522bcf30997
+      projectPath: Library/Artifacts/60/609696673b45bc8856e10522bcf30997
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/61/614b8088b3f3a55a99a19ec24c3f313c
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/61/614b8088b3f3a55a99a19ec24c3f313c
+      projectPath: Library/Artifacts/61/614b8088b3f3a55a99a19ec24c3f313c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/6c/6c78e6a782b0b20a4015d8eac60be2ce
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/6c/6c78e6a782b0b20a4015d8eac60be2ce
+      projectPath: Library/Artifacts/6c/6c78e6a782b0b20a4015d8eac60be2ce
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/7a/7ad84bf4fcea94803df784b9e050c12f
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/7a/7ad84bf4fcea94803df784b9e050c12f
+      projectPath: Library/Artifacts/7a/7ad84bf4fcea94803df784b9e050c12f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/92/924ef18d238cb4568fdea8c0620eb9e7
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/92/924ef18d238cb4568fdea8c0620eb9e7
+      projectPath: Library/Artifacts/92/924ef18d238cb4568fdea8c0620eb9e7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/98/98a88c4c009badb0640a547f48750b75
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/98/98a88c4c009badb0640a547f48750b75
+      projectPath: Library/Artifacts/98/98a88c4c009badb0640a547f48750b75
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/99/99c81db42ad6e86145c1c35005cb7f63
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/99/99c81db42ad6e86145c1c35005cb7f63
+      projectPath: Library/Artifacts/99/99c81db42ad6e86145c1c35005cb7f63
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/9a/9ae12ef6327984e65fb24f0ece3a4b41
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/9a/9ae12ef6327984e65fb24f0ece3a4b41
+      projectPath: Library/Artifacts/9a/9ae12ef6327984e65fb24f0ece3a4b41
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/a2/a209060238e05f6d2d145dbd620a01d3
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/a2/a209060238e05f6d2d145dbd620a01d3
+      projectPath: Library/Artifacts/a2/a209060238e05f6d2d145dbd620a01d3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/a8/a867b33ff49bf27a3066ac3cc35750ae
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/a8/a867b33ff49bf27a3066ac3cc35750ae
+      projectPath: Library/Artifacts/a8/a867b33ff49bf27a3066ac3cc35750ae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/ab/abcaf80ba776586eb8004543b6fbc605
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/ab/abcaf80ba776586eb8004543b6fbc605
+      projectPath: Library/Artifacts/ab/abcaf80ba776586eb8004543b6fbc605
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/b1/b1c414e4f62a093d2ee102e78926d045
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/b1/b1c414e4f62a093d2ee102e78926d045
+      projectPath: Library/Artifacts/b1/b1c414e4f62a093d2ee102e78926d045
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/b2/b21df2a1e784a5adf4a4a4c25fbb85ef
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/b2/b21df2a1e784a5adf4a4a4c25fbb85ef
+      projectPath: Library/Artifacts/b2/b21df2a1e784a5adf4a4a4c25fbb85ef
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/b7/b743d5d2dd7f84a1612c2650cb7ae9ab
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/b7/b743d5d2dd7f84a1612c2650cb7ae9ab
+      projectPath: Library/Artifacts/b7/b743d5d2dd7f84a1612c2650cb7ae9ab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/b9/b986646478fbb279067b722f7f5c23bf
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/b9/b986646478fbb279067b722f7f5c23bf
+      projectPath: Library/Artifacts/b9/b986646478fbb279067b722f7f5c23bf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/bb/bb192bf5d542becf35dbbf15a6a6446a
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/bb/bb192bf5d542becf35dbbf15a6a6446a
+      projectPath: Library/Artifacts/bb/bb192bf5d542becf35dbbf15a6a6446a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/c3/c31a0b3e5202d1686424ba72f68f8204
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/c3/c31a0b3e5202d1686424ba72f68f8204
+      projectPath: Library/Artifacts/c3/c31a0b3e5202d1686424ba72f68f8204
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/c9/c915db08d371494d11c987005c9c0528
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/c9/c915db08d371494d11c987005c9c0528
+      projectPath: Library/Artifacts/c9/c915db08d371494d11c987005c9c0528
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/d0/d0da088ea14e6e709a969e681d5a3282
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/d0/d0da088ea14e6e709a969e681d5a3282
+      projectPath: Library/Artifacts/d0/d0da088ea14e6e709a969e681d5a3282
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/dc/dc6e5974445e435d2e595c2d1746c755
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/dc/dc6e5974445e435d2e595c2d1746c755
+      projectPath: Library/Artifacts/dc/dc6e5974445e435d2e595c2d1746c755
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/dd/dd6ed0507c21f8a7004b21a4e16a3079
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/dd/dd6ed0507c21f8a7004b21a4e16a3079
+      projectPath: Library/Artifacts/dd/dd6ed0507c21f8a7004b21a4e16a3079
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/e5/e5c8ba090580e0e4501c54eafaf3286a
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/e5/e5c8ba090580e0e4501c54eafaf3286a
+      projectPath: Library/Artifacts/e5/e5c8ba090580e0e4501c54eafaf3286a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/e6/e675a38e6ef743cc7b6420c462326645
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/e6/e675a38e6ef743cc7b6420c462326645
+      projectPath: Library/Artifacts/e6/e675a38e6ef743cc7b6420c462326645
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/f4/f41351726cedfbceb0d0a5237e150dea
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/f4/f41351726cedfbceb0d0a5237e150dea
+      projectPath: Library/Artifacts/f4/f41351726cedfbceb0d0a5237e150dea
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/f8/f8ba748d7ca8404048b34403ebda72ac
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/f8/f8ba748d7ca8404048b34403ebda72ac
+      projectPath: Library/Artifacts/f8/f8ba748d7ca8404048b34403ebda72ac
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/fa/fae95877d8f7d8ce689c363ab0106073
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/fa/fae95877d8f7d8ce689c363ab0106073
+      projectPath: Library/Artifacts/fa/fae95877d8f7d8ce689c363ab0106073
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/Artifacts/fc/fc7d108ccbbe5d481e1d46fd7f284c0a
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/Artifacts/fc/fc7d108ccbbe5d481e1d46fd7f284c0a
+      projectPath: Library/Artifacts/fc/fc7d108ccbbe5d481e1d46fd7f284c0a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/CurrentLayout-default.dwlt
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/CurrentLayout-default.dwlt
+      projectPath: Library/CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/EditorInstance.json
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/LastSceneManagerSetup.txt
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/LastSceneManagerSetup.txt
+      projectPath: Library/LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/SceneVisibilityState.asset
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/SceneVisibilityState.asset
+      projectPath: Library/SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.Rider.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/Unity.Timeline.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/Unity.Timeline.dll
+      projectPath: Library/ScriptAssemblies/Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+      projectPath: Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+      projectPath: Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/UnityEditor.UI.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/UnityEditor.UI.dll
+      projectPath: Library/ScriptAssemblies/UnityEditor.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+      projectPath: Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/ScriptAssemblies/UnityEngine.UI.dll
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/ScriptAssemblies/UnityEngine.UI.dll
+      projectPath: Library/ScriptAssemblies/UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/SourceAssetDB
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/StateCache/Hierarchy/28d662-mainStage.json
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/StateCache/Hierarchy/28d662-mainStage.json
+      projectPath: Library/StateCache/Hierarchy/28d662-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/gfu/cache/gituser.yaml
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-025d3669f09c948baa9c9b7552c5088f
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-025d3669f09c948baa9c9b7552c5088f
+      projectPath: Temp/UnityTempFile-025d3669f09c948baa9c9b7552c5088f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-0ca278bd522c74ab3a5c539301567c00
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-0ca278bd522c74ab3a5c539301567c00
+      projectPath: Temp/UnityTempFile-0ca278bd522c74ab3a5c539301567c00
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-0dd10e77aae1a47f5bd358b867e254ce
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-0dd10e77aae1a47f5bd358b867e254ce
+      projectPath: Temp/UnityTempFile-0dd10e77aae1a47f5bd358b867e254ce
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-0e966fce6d9054957b19da9dbfad0b39
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-0e966fce6d9054957b19da9dbfad0b39
+      projectPath: Temp/UnityTempFile-0e966fce6d9054957b19da9dbfad0b39
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-144e9a443a4e4493892b3ba3add1b544
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-144e9a443a4e4493892b3ba3add1b544
+      projectPath: Temp/UnityTempFile-144e9a443a4e4493892b3ba3add1b544
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-1e4d1fa56b480469ba56fe4af1c3878d
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-1e4d1fa56b480469ba56fe4af1c3878d
+      projectPath: Temp/UnityTempFile-1e4d1fa56b480469ba56fe4af1c3878d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-36fd9fefc1bff4a8ab8b1e92854c3d6f
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-36fd9fefc1bff4a8ab8b1e92854c3d6f
+      projectPath: Temp/UnityTempFile-36fd9fefc1bff4a8ab8b1e92854c3d6f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-39050f32345164614ad43887f9fec2e2
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-39050f32345164614ad43887f9fec2e2
+      projectPath: Temp/UnityTempFile-39050f32345164614ad43887f9fec2e2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-3a2b6fc6ea5f54103a51fbddc1d35de7
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-3a2b6fc6ea5f54103a51fbddc1d35de7
+      projectPath: Temp/UnityTempFile-3a2b6fc6ea5f54103a51fbddc1d35de7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-40577ca481243493eae27e87391dbb2a
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-40577ca481243493eae27e87391dbb2a
+      projectPath: Temp/UnityTempFile-40577ca481243493eae27e87391dbb2a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-433a86ee36c7b48dab03c5b03ef43733
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-433a86ee36c7b48dab03c5b03ef43733
+      projectPath: Temp/UnityTempFile-433a86ee36c7b48dab03c5b03ef43733
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-4ffc38e21d02b4c48afe19654c30a3d1
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-4ffc38e21d02b4c48afe19654c30a3d1
+      projectPath: Temp/UnityTempFile-4ffc38e21d02b4c48afe19654c30a3d1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-5bd63f181ed674598a88a40d971ea99f
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-5bd63f181ed674598a88a40d971ea99f
+      projectPath: Temp/UnityTempFile-5bd63f181ed674598a88a40d971ea99f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-6fbcfd45794f94ec79161932d018f77f
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-6fbcfd45794f94ec79161932d018f77f
+      projectPath: Temp/UnityTempFile-6fbcfd45794f94ec79161932d018f77f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-7a4fc5153e36f4a29bd698139a2a0f27
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-7a4fc5153e36f4a29bd698139a2a0f27
+      projectPath: Temp/UnityTempFile-7a4fc5153e36f4a29bd698139a2a0f27
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-801c7ec5b9d2144ef90dc0f63351bd27
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-801c7ec5b9d2144ef90dc0f63351bd27
+      projectPath: Temp/UnityTempFile-801c7ec5b9d2144ef90dc0f63351bd27
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-960149ddbfa514ba1a49041b255787f2
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-960149ddbfa514ba1a49041b255787f2
+      projectPath: Temp/UnityTempFile-960149ddbfa514ba1a49041b255787f2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-96cd0a61506fd4d718fbd2f4c7f6f173
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-96cd0a61506fd4d718fbd2f4c7f6f173
+      projectPath: Temp/UnityTempFile-96cd0a61506fd4d718fbd2f4c7f6f173
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-c9c9e2e33242a47c5adb11c1bf9ffd20
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-c9c9e2e33242a47c5adb11c1bf9ffd20
+      projectPath: Temp/UnityTempFile-c9c9e2e33242a47c5adb11c1bf9ffd20
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-ca131032d8a5f4dfd837cf0bebe0384a
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-ca131032d8a5f4dfd837cf0bebe0384a
+      projectPath: Temp/UnityTempFile-ca131032d8a5f4dfd837cf0bebe0384a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-d599a69b550494d4cbd6c385548f699b
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-d599a69b550494d4cbd6c385548f699b
+      projectPath: Temp/UnityTempFile-d599a69b550494d4cbd6c385548f699b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-d87f37e27b313409c99b988cad44bffe
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-d87f37e27b313409c99b988cad44bffe
+      projectPath: Temp/UnityTempFile-d87f37e27b313409c99b988cad44bffe
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-e45fe8ad5781c4f40bb075d15fb5bbbf
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-e45fe8ad5781c4f40bb075d15fb5bbbf
+      projectPath: Temp/UnityTempFile-e45fe8ad5781c4f40bb075d15fb5bbbf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPrototype/Temp/UnityTempFile-f6ea5b551da3a4172a854fa2f3ce5969
+      fullPath: /Users/brandlmax/Repositories/ProjectButterfly/Project-Butterfly/UnityPrototype/Temp/UnityTempFile-f6ea5b551da3a4172a854fa2f3ce5969
+      projectPath: Temp/UnityTempFile-f6ea5b551da3a4172a854fa2f3ce5969
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: d8467818daaff5f9ad9d874e71537beb8342288e
     mergeA: 
     mergeB: 
