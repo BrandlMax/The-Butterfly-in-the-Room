@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Websocket Test</title>
+  </head>
+  <body>
+    <h1>Websocket Test</h1>
+    <script>
+      const socket = new WebSocket("ws://localhost:1337");
+
+      socket.addEventListener("open", () => {
+        socket.send("Hello World from Test Client!");
+      });
+
+      socket.addEventListener("message", (event) => {
+        console.log(`Message from server: ${event.data}`);
+      });
+
+      setInterval(() => {
+        socket.send("Message from Test.html" + new Date());
+      }, 3000);
+    </script>
+  </body>
+</html>
