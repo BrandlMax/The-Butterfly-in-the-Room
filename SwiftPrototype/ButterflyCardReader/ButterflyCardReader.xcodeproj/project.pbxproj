@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		97BE919424A67CED00DD93FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE919324A67CED00DD93FF /* AppDelegate.swift */; };
-		97BE919624A67CED00DD93FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE919524A67CED00DD93FF /* SceneDelegate.swift */; };
-		97BE919824A67CED00DD93FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE919724A67CED00DD93FF /* ContentView.swift */; };
-		97BE919A24A67CEE00DD93FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BE919924A67CEE00DD93FF /* Assets.xcassets */; };
-		97BE919D24A67CEE00DD93FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BE919C24A67CEE00DD93FF /* Preview Assets.xcassets */; };
-		97BE91A024A67CEE00DD93FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BE919E24A67CEE00DD93FF /* LaunchScreen.storyboard */; };
+		9735EB8A24A799D1007634FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735EB8924A799D1007634FE /* AppDelegate.swift */; };
+		9735EB8C24A799D1007634FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735EB8B24A799D1007634FE /* SceneDelegate.swift */; };
+		9735EB8E24A799D1007634FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735EB8D24A799D1007634FE /* ViewController.swift */; };
+		9735EB9124A799D1007634FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9735EB8F24A799D1007634FE /* Main.storyboard */; };
+		9735EB9324A799D2007634FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9735EB9224A799D2007634FE /* Assets.xcassets */; };
+		9735EB9624A799D2007634FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9735EB9424A799D2007634FE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		97BE919024A67CED00DD93FF /* ButterflyInTheRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButterflyInTheRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		97BE919324A67CED00DD93FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97BE919524A67CED00DD93FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97BE919724A67CED00DD93FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		97BE919924A67CEE00DD93FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		97BE919C24A67CEE00DD93FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		97BE919F24A67CEE00DD93FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97BE91A124A67CEE00DD93FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9735EB8624A799D1007634FE /* ButterflyCardReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButterflyCardReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9735EB8924A799D1007634FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9735EB8B24A799D1007634FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9735EB8D24A799D1007634FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9735EB9024A799D1007634FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9735EB9224A799D2007634FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9735EB9524A799D2007634FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9735EB9724A799D2007634FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		97BE918D24A67CED00DD93FF /* Frameworks */ = {
+		9735EB8324A799D1007634FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,80 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		97BE918724A67CED00DD93FF = {
+		9735EB7D24A799D1007634FE = {
 			isa = PBXGroup;
 			children = (
-				97BE919224A67CED00DD93FF /* ButterflyInTheRoom */,
-				97BE919124A67CED00DD93FF /* Products */,
+				9735EB8824A799D1007634FE /* ButterflyCardReader */,
+				9735EB8724A799D1007634FE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		97BE919124A67CED00DD93FF /* Products */ = {
+		9735EB8724A799D1007634FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97BE919024A67CED00DD93FF /* ButterflyInTheRoom.app */,
+				9735EB8624A799D1007634FE /* ButterflyCardReader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		97BE919224A67CED00DD93FF /* ButterflyInTheRoom */ = {
+		9735EB8824A799D1007634FE /* ButterflyCardReader */ = {
 			isa = PBXGroup;
 			children = (
-				97BE919324A67CED00DD93FF /* AppDelegate.swift */,
-				97BE919524A67CED00DD93FF /* SceneDelegate.swift */,
-				97BE919724A67CED00DD93FF /* ContentView.swift */,
-				97BE919924A67CEE00DD93FF /* Assets.xcassets */,
-				97BE919E24A67CEE00DD93FF /* LaunchScreen.storyboard */,
-				97BE91A124A67CEE00DD93FF /* Info.plist */,
-				97BE919B24A67CEE00DD93FF /* Preview Content */,
+				9735EB8924A799D1007634FE /* AppDelegate.swift */,
+				9735EB8B24A799D1007634FE /* SceneDelegate.swift */,
+				9735EB8D24A799D1007634FE /* ViewController.swift */,
+				9735EB8F24A799D1007634FE /* Main.storyboard */,
+				9735EB9224A799D2007634FE /* Assets.xcassets */,
+				9735EB9424A799D2007634FE /* LaunchScreen.storyboard */,
+				9735EB9724A799D2007634FE /* Info.plist */,
 			);
-			path = ButterflyInTheRoom;
-			sourceTree = "<group>";
-		};
-		97BE919B24A67CEE00DD93FF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				97BE919C24A67CEE00DD93FF /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = ButterflyCardReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97BE918F24A67CED00DD93FF /* ButterflyInTheRoom */ = {
+		9735EB8524A799D1007634FE /* ButterflyCardReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97BE91A424A67CEE00DD93FF /* Build configuration list for PBXNativeTarget "ButterflyInTheRoom" */;
+			buildConfigurationList = 9735EB9A24A799D2007634FE /* Build configuration list for PBXNativeTarget "ButterflyCardReader" */;
 			buildPhases = (
-				97BE918C24A67CED00DD93FF /* Sources */,
-				97BE918D24A67CED00DD93FF /* Frameworks */,
-				97BE918E24A67CED00DD93FF /* Resources */,
+				9735EB8224A799D1007634FE /* Sources */,
+				9735EB8324A799D1007634FE /* Frameworks */,
+				9735EB8424A799D1007634FE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ButterflyInTheRoom;
-			productName = ButterflyInTheRoom;
-			productReference = 97BE919024A67CED00DD93FF /* ButterflyInTheRoom.app */;
+			name = ButterflyCardReader;
+			productName = ButterflyCardReader;
+			productReference = 9735EB8624A799D1007634FE /* ButterflyCardReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		97BE918824A67CED00DD93FF /* Project object */ = {
+		9735EB7E24A799D1007634FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Maximilian Brandl";
 				TargetAttributes = {
-					97BE918F24A67CED00DD93FF = {
+					9735EB8524A799D1007634FE = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 97BE918B24A67CED00DD93FF /* Build configuration list for PBXProject "ButterflyInTheRoom" */;
+			buildConfigurationList = 9735EB8124A799D1007634FE /* Build configuration list for PBXProject "ButterflyCardReader" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 97BE918724A67CED00DD93FF;
-			productRefGroup = 97BE919124A67CED00DD93FF /* Products */;
+			mainGroup = 9735EB7D24A799D1007634FE;
+			productRefGroup = 9735EB8724A799D1007634FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97BE918F24A67CED00DD93FF /* ButterflyInTheRoom */,
+				9735EB8524A799D1007634FE /* ButterflyCardReader */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		97BE918E24A67CED00DD93FF /* Resources */ = {
+		9735EB8424A799D1007634FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97BE91A024A67CEE00DD93FF /* LaunchScreen.storyboard in Resources */,
-				97BE919D24A67CEE00DD93FF /* Preview Assets.xcassets in Resources */,
-				97BE919A24A67CEE00DD93FF /* Assets.xcassets in Resources */,
+				9735EB9624A799D2007634FE /* LaunchScreen.storyboard in Resources */,
+				9735EB9324A799D2007634FE /* Assets.xcassets in Resources */,
+				9735EB9124A799D1007634FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		97BE918C24A67CED00DD93FF /* Sources */ = {
+		9735EB8224A799D1007634FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97BE919424A67CED00DD93FF /* AppDelegate.swift in Sources */,
-				97BE919624A67CED00DD93FF /* SceneDelegate.swift in Sources */,
-				97BE919824A67CED00DD93FF /* ContentView.swift in Sources */,
+				9735EB8E24A799D1007634FE /* ViewController.swift in Sources */,
+				9735EB8A24A799D1007634FE /* AppDelegate.swift in Sources */,
+				9735EB8C24A799D1007634FE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		97BE919E24A67CEE00DD93FF /* LaunchScreen.storyboard */ = {
+		9735EB8F24A799D1007634FE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				97BE919F24A67CEE00DD93FF /* Base */,
+				9735EB9024A799D1007634FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9735EB9424A799D2007634FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9735EB9524A799D2007634FE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		97BE91A224A67CEE00DD93FF /* Debug */ = {
+		9735EB9824A799D2007634FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		97BE91A324A67CEE00DD93FF /* Release */ = {
+		9735EB9924A799D2007634FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,40 +280,36 @@
 			};
 			name = Release;
 		};
-		97BE91A524A67CEE00DD93FF /* Debug */ = {
+		9735EB9B24A799D2007634FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ButterflyInTheRoom/Preview Content\"";
 				DEVELOPMENT_TEAM = 2BMWZK687S;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ButterflyInTheRoom/Info.plist;
+				INFOPLIST_FILE = ButterflyCardReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.brandlmax.ButterflyInTheRoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandlmax.ButterflyCardReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		97BE91A624A67CEE00DD93FF /* Release */ = {
+		9735EB9C24A799D2007634FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ButterflyInTheRoom/Preview Content\"";
 				DEVELOPMENT_TEAM = 2BMWZK687S;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ButterflyInTheRoom/Info.plist;
+				INFOPLIST_FILE = ButterflyCardReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.brandlmax.ButterflyInTheRoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandlmax.ButterflyCardReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97BE918B24A67CED00DD93FF /* Build configuration list for PBXProject "ButterflyInTheRoom" */ = {
+		9735EB8124A799D1007634FE /* Build configuration list for PBXProject "ButterflyCardReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97BE91A224A67CEE00DD93FF /* Debug */,
-				97BE91A324A67CEE00DD93FF /* Release */,
+				9735EB9824A799D2007634FE /* Debug */,
+				9735EB9924A799D2007634FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97BE91A424A67CEE00DD93FF /* Build configuration list for PBXNativeTarget "ButterflyInTheRoom" */ = {
+		9735EB9A24A799D2007634FE /* Build configuration list for PBXNativeTarget "ButterflyCardReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97BE91A524A67CEE00DD93FF /* Debug */,
-				97BE91A624A67CEE00DD93FF /* Release */,
+				9735EB9B24A799D2007634FE /* Debug */,
+				9735EB9C24A799D2007634FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 97BE918824A67CED00DD93FF /* Project object */;
+	rootObject = 9735EB7E24A799D1007634FE /* Project object */;
 }

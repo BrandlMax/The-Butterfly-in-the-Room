@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ButterflyInTheRoom
+//  ButterflyCardReader
 //
-//  Created by Maximilian Brandl on 26.06.20.
+//  Created by Maximilian Brandl on 27.06.20.
 //  Copyright © 2020 Maximilian Brandl. All rights reserved.
 //
 

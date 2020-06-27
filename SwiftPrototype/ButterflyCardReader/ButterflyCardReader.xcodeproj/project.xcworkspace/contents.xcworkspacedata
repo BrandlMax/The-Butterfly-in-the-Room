@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ButterflyInTheRoom.xcodeproj">
+      location = "self:ButterflyCardReader.xcodeproj">
    </FileRef>
 </Workspace>
