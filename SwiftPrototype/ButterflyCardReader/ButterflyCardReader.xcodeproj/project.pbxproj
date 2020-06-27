@@ -10,9 +10,12 @@
 		9735EB8A24A799D1007634FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735EB8924A799D1007634FE /* AppDelegate.swift */; };
 		9735EB8C24A799D1007634FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735EB8B24A799D1007634FE /* SceneDelegate.swift */; };
 		9735EB8E24A799D1007634FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735EB8D24A799D1007634FE /* ViewController.swift */; };
-		9735EB9124A799D1007634FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9735EB8F24A799D1007634FE /* Main.storyboard */; };
 		9735EB9324A799D2007634FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9735EB9224A799D2007634FE /* Assets.xcassets */; };
 		9735EB9624A799D2007634FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9735EB9424A799D2007634FE /* LaunchScreen.storyboard */; };
+		9735EBAA24A7CDB3007634FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9735EBA924A7CDB3007634FE /* Main.storyboard */; };
+		9735EBAC24A7CE20007634FE /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735EBAB24A7CE20007634FE /* VisionObjectRecognitionViewController.swift */; };
+		9735EBAE24A7CE99007634FE /* ButterflyPocMachiKoro - 300.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9735EBAD24A7CE99007634FE /* ButterflyPocMachiKoro - 300.mlmodel */; };
+		9735EBB124A7CEB8007634FE /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9735EBB024A7CEB8007634FE /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		9735EB8924A799D1007634FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9735EB8B24A799D1007634FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9735EB8D24A799D1007634FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9735EB9024A799D1007634FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9735EB9224A799D2007634FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9735EB9524A799D2007634FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9735EB9724A799D2007634FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9735EBA924A7CDB3007634FE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9735EBAB24A7CE20007634FE /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
+		9735EBAD24A7CE99007634FE /* ButterflyPocMachiKoro - 300.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ButterflyPocMachiKoro - 300.mlmodel"; sourceTree = "<group>"; };
+		9735EBB024A7CEB8007634FE /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 			children = (
 				9735EB8824A799D1007634FE /* ButterflyCardReader */,
 				9735EB8724A799D1007634FE /* Products */,
+				9735EBAF24A7CEB8007634FE /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +66,23 @@
 				9735EB8924A799D1007634FE /* AppDelegate.swift */,
 				9735EB8B24A799D1007634FE /* SceneDelegate.swift */,
 				9735EB8D24A799D1007634FE /* ViewController.swift */,
-				9735EB8F24A799D1007634FE /* Main.storyboard */,
+				9735EBAB24A7CE20007634FE /* VisionObjectRecognitionViewController.swift */,
+				9735EBAD24A7CE99007634FE /* ButterflyPocMachiKoro - 300.mlmodel */,
 				9735EB9224A799D2007634FE /* Assets.xcassets */,
+				9735EBA924A7CDB3007634FE /* Main.storyboard */,
 				9735EB9424A799D2007634FE /* LaunchScreen.storyboard */,
 				9735EB9724A799D2007634FE /* Info.plist */,
 			);
 			path = ButterflyCardReader;
+			sourceTree = "<group>";
+		};
+		9735EBAF24A7CEB8007634FE /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				9735EBB024A7CEB8007634FE /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = ../../../../../Downloads/RecognizingObjectsInLiveCapture/LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +143,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9735EBB124A7CEB8007634FE /* LICENSE.txt in Resources */,
+				9735EBAA24A7CDB3007634FE /* Main.storyboard in Resources */,
 				9735EB9624A799D2007634FE /* LaunchScreen.storyboard in Resources */,
 				9735EB9324A799D2007634FE /* Assets.xcassets in Resources */,
-				9735EB9124A799D1007634FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9735EB8E24A799D1007634FE /* ViewController.swift in Sources */,
+				9735EBAE24A7CE99007634FE /* ButterflyPocMachiKoro - 300.mlmodel in Sources */,
+				9735EBAC24A7CE20007634FE /* VisionObjectRecognitionViewController.swift in Sources */,
 				9735EB8A24A799D1007634FE /* AppDelegate.swift in Sources */,
 				9735EB8C24A799D1007634FE /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +168,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9735EB8F24A799D1007634FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9735EB9024A799D1007634FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9735EB9424A799D2007634FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
