@@ -42,8 +42,10 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 
       socketConnection?.send(message) { error in
         if let error = error {
-          // handle the error
-          print(error)
+            // handle the error
+            print(error)
+            print("Trying to reconnect")
+            self.connectToSocket()
         }
       }
     }
