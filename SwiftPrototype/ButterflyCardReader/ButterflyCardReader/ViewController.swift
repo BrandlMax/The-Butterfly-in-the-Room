@@ -16,22 +16,41 @@ import Vision
 
 class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
     
+    // 📹 Video
     var bufferSize: CGSize = .zero
     var rootLayer: CALayer! = nil
-    
     @IBOutlet weak private var previewView: UIView!
     private let session = AVCaptureSession()
     private var previewLayer: AVCaptureVideoPreviewLayer! = nil
     private let videoDataOutput = AVCaptureVideoDataOutput()
-    
     private let videoDataOutputQueue = DispatchQueue(label: "VideoDataOutput", qos: .userInitiated, attributes: [], autoreleaseFrequency: .workItem)
-    
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
         // to be implemented in the subclass
     }
     
+    // 🔌 Socket
+    var socketConnection:  URLSessionWebSocketTask?
+
+    func connectToSocket() {
+      let url = URL(string: "ws://192.168.0.187:1337")!
+      socketConnection = URLSession.shared.webSocketTask(with: url)
+      socketConnection?.resume()
+    }
+    
+    func sendStringMessage(MessageString: String) {
+      let message = URLSessionWebSocketTask.Message.string(MessageString)
+
+      socketConnection?.send(message) { error in
+        if let error = error {
+          // handle the error
+          print(error)
+        }
+      }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        connectToSocket()
         setupAVCapture()
     }
     

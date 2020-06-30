@@ -51,6 +51,8 @@ class VisionObjectRecognitionViewController: ViewController {
     func drawVisionRequestResults(_ results: [Any]) {
         CATransaction.begin()
         CATransaction.setValue(kCFBooleanTrue, forKey: kCATransactionDisableActions)
+        var detectedIdentifiers: [String] = []
+        var detectedCards: [String] = []
         detectionOverlay.sublayers = nil // remove all the old recognized objects
         for observation in results where observation is VNRecognizedObjectObservation {
             guard let objectObservation = observation as? VNRecognizedObjectObservation else {
@@ -65,10 +67,18 @@ class VisionObjectRecognitionViewController: ViewController {
             let textLayer = self.createTextSubLayerInBounds(objectBounds,
                                                             identifier: topLabelObservation.identifier,
                                                             confidence: topLabelObservation.confidence)
+            // 🔌 Socket: Send Detected Card Data to Server
+            if !detectedIdentifiers.contains(topLabelObservation.identifier){
+                detectedIdentifiers.append(topLabelObservation.identifier)
+                detectedCards.append("\(topLabelObservation.identifier):\(objectBounds)")
+            }
+            
             shapeLayer.addSublayer(textLayer)
             detectionOverlay.addSublayer(shapeLayer)
         }
         self.updateLayerGeometry()
+        let cardsDataString = detectedCards.joined(separator:";")
+        sendStringMessage(MessageString: cardsDataString)
         CATransaction.commit()
     }
     
