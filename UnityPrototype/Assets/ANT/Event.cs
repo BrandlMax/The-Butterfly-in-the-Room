@@ -6,10 +6,11 @@ public class Event : MonoBehaviour
 {
     public int id;
     public string eventName;
-    public enum EventType { Hazard, Issue }; 
-    public EventType eventType = EventType.Hazard;
+    public EventController.EventType eventType;
     public string eventMessage;
-    // ToDo: Condition 
+    public List<Parameter> requiredConditions = new List<Parameter>();
+    public List<Actor> actors = new List<Actor>();
+    public bool isActive = false;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,23 @@ public class Event : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        foreach(Parameter condition in requiredConditions)
+        {
+            if (condition.isActive)
+            {
+                if (!isActive)
+                {
+                    isActive = true;
+                    Debug.Log("EVENT ACTIVE! -> " + eventName);
+                }
+            } else
+            {
+                if (isActive)
+                {
+                    isActive = false;
+                    Debug.Log("EVENT INACTIVE! -> " + eventName);
+                }
+            }
+        }
     }
 }
