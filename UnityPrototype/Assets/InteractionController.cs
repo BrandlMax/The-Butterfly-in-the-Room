@@ -39,11 +39,12 @@ public class InteractionController : MonoBehaviour
             
 
             // Setup line
-            LineRenderer lr = a.gameObject.AddComponent<LineRenderer>();
+            LineRenderer lr = newInteraction.gameObject.AddComponent<LineRenderer>();
+            newInteraction.line = lr;
             lr.SetPosition(0, a.gameObject.transform.position);
             lr.SetPosition(1, b.gameObject.transform.position);
-            lr.startWidth = 0.25f;
-            lr.endWidth = 0.25f;
+            lr.startWidth = 0.05f;
+            lr.endWidth = 0.05f;
             lr.material = lineMaterial;
         }
     }

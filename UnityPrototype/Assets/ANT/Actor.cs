@@ -22,12 +22,16 @@ public class Actor : MonoBehaviour
     [Header("Visualisation")]
     public GameObject label;
     public bool labelLookAtCamera = false;
-    // ToDo: Values
+
+    // Movement
+    Vector3 currentTarget;
+    public int maxTargetDistance = 10;
+    public float maxSpeed = 0.01f;
 
     // Start is called before the first frame update
     void Start()
     {
-     
+        getNewTarget();
     }
 
     // Update is called once per frame
@@ -36,7 +40,21 @@ public class Actor : MonoBehaviour
         if(label != null && labelLookAtCamera)
         {
             label.transform.LookAt(Camera.main.transform);
-        }   
+        }
+
+        if(Vector3.Distance(this.gameObject.transform.position, this.currentTarget) > 1.5f)
+        {
+            this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, this.currentTarget, maxSpeed);
+        } else
+        {
+            getNewTarget();
+        }
+
+    }
+
+    void getNewTarget()
+    {
+        currentTarget = new Vector3(Random.Range(gameObject.transform.position.x - maxTargetDistance, gameObject.transform.position.x + maxTargetDistance), Random.Range(gameObject.transform.position.y - maxTargetDistance, gameObject.transform.position.y + maxTargetDistance), Random.Range(gameObject.transform.position.z - maxTargetDistance, gameObject.transform.position.z + maxTargetDistance));
     }
 
     public void addData(string[] data)

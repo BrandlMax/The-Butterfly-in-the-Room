@@ -8,8 +8,7 @@ public class ActorGenerator : MonoBehaviour
     public List<Actor> actors = new List<Actor>();
     public GameObject sphere;
     public GameObject textPrefab;
-    [Range(0f, 20f)]
-    public int radius = 20;
+    public int radius = 50;
 
     public void addActor(string[] data)
     {
@@ -39,7 +38,7 @@ public class ActorGenerator : MonoBehaviour
         // Add floating label
         GameObject label = Instantiate(textPrefab);
         label.transform.SetParent(newActor.transform);
-        label.transform.localPosition = new Vector3(0, 0, 0);
+        label.transform.localPosition = new Vector3(4f, -1.8f, 0);
         label.name = "Label";
         label.GetComponent<TextMeshPro>().text = actor.actorName;
         actor.label = label;

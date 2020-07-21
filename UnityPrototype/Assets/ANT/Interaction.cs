@@ -8,7 +8,7 @@ public class Interaction : MonoBehaviour
     public string interactionName;
     public Actor actor1;
     public Actor actor2;
-    private LineRenderer line;
+    public LineRenderer line;
     // ToDo: Interactiontype
 
     // Start is called before the first frame update
@@ -19,5 +19,12 @@ public class Interaction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        UpdateLine();
+    }
+
+    void UpdateLine()
+    {
+        line.SetPosition(0, actor1.gameObject.transform.position);
+        line.SetPosition(1, actor2.gameObject.transform.position);
     }
 }
