@@ -9,6 +9,8 @@ public class Parameter : MonoBehaviour
     public List<Actor> actors;
     public List<Event> events;
     public bool isActive = false;
+    public Texture texture;
+    public Sprite sprite;
 
     // Start is called before the first frame update
     void Start()

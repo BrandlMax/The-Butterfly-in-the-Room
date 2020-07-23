@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using System.IO;
 
 public class ActorGenerator : MonoBehaviour
 {
@@ -34,6 +35,14 @@ public class ActorGenerator : MonoBehaviour
         // Visualization
         GameObject visualization = Instantiate(sphere);
         visualization.transform.parent = newActor.transform;
+
+        // Set texture
+        Texture2D t = LoadPNG("Assets/ImageFiles/" + actor.name + ".jpg");
+        if(t != null)
+        {
+            Debug.Log("Texture found: " + t);
+            visualization.GetComponent<Renderer>().material.SetTexture("Texture2D_8CE1D861", t);
+        }        
 
         // Add floating label
         GameObject label = Instantiate(textPrefab);
@@ -93,4 +102,18 @@ public class ActorGenerator : MonoBehaviour
         return null;
     }
 
+
+    public static Texture2D LoadPNG(string filePath)
+    {
+        Texture2D tex = null;
+        byte[] fileData;
+
+        if (File.Exists(filePath))
+        {
+            fileData = File.ReadAllBytes(filePath);
+            tex = new Texture2D(2, 2);
+            tex.LoadImage(fileData); //..this will auto-resize the texture dimensions.
+        }
+        return tex;
+    }
 }

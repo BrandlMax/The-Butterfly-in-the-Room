@@ -15,7 +15,7 @@ public class InteractionController : MonoBehaviour
 
     public void createInteraction(string[] data)
     {
-        Debug.Log("Interactions: " + data[0] + ", " + data[1] + ", " + data[2]);
+        // Debug.Log("Interactions: " + data[0] + ", " + data[1] + ", " + data[2]);
 
         // name, actor a, actor b
         Actor a = actorGenerator.findRelative(data[1]);
