@@ -1,0 +1,39 @@
+.textMedia {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  width: 50%;
+}
+
+.media {
+  width: 80%;
+}
+
+.media img {
+  width: 100%;
+  max-width: 650px;
+}
+
+@media only screen and (max-width: 840px) {
+  .textMedia {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    width: 70%;
+  }
+  .media {
+    align-self: flex-end;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .content {
+    width: 100%;
+  }
+  .media {
+    align-self: flex-end;
+  }
+}

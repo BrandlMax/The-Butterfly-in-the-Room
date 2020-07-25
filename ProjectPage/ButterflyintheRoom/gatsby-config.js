@@ -5,6 +5,10 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "The Butterfly in the Room",
+    description: "A meditation about More-Than-Human-Centered Design",
+  },
   /* Your site config here */
   plugins: [],
 }

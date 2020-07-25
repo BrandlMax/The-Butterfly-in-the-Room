@@ -1,0 +1,59 @@
+.heroImage {
+  background-image: url("../images/HeaderBG@2x.png");
+  background-size: cover;
+  height: 70vw;
+  max-height: 760px;
+  min-height: 420px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+.heroContent {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.heroContent img {
+  width: 60%;
+}
+
+.heroContent nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.heroContent nav a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.heroContent nav img {
+  width: 10px;
+  margin-right: 10px;
+}
+
+.heroMask {
+  position: absolute;
+  bottom: 0;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: -4px;
+  pointer-events: none;
+}
+
+.heroMask img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 520px) {
+  .heroContent img {
+    width: 90%;
+  }
+}
