@@ -15,7 +15,7 @@
 		9735EBAA24A7CDB3007634FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9735EBA924A7CDB3007634FE /* Main.storyboard */; };
 		9735EBAC24A7CE20007634FE /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735EBAB24A7CE20007634FE /* VisionObjectRecognitionViewController.swift */; };
 		9735EBAE24A7CE99007634FE /* ButterflyPocMachiKoro - 300.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9735EBAD24A7CE99007634FE /* ButterflyPocMachiKoro - 300.mlmodel */; };
-		9735EBB124A7CEB8007634FE /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9735EBB024A7CEB8007634FE /* LICENSE.txt */; };
+		97D6DC2C24D81865005BF046 /* ButterflyCards 15 - 5000it.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 97D6DC2B24D81865005BF046 /* ButterflyCards 15 - 5000it.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +30,7 @@
 		9735EBAB24A7CE20007634FE /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
 		9735EBAD24A7CE99007634FE /* ButterflyPocMachiKoro - 300.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ButterflyPocMachiKoro - 300.mlmodel"; sourceTree = "<group>"; };
 		9735EBB024A7CEB8007634FE /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		97D6DC2B24D81865005BF046 /* ButterflyCards 15 - 5000it.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ButterflyCards 15 - 5000it.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		9735EB8824A799D1007634FE /* ButterflyCardReader */ = {
 			isa = PBXGroup;
 			children = (
+				97D6DC2B24D81865005BF046 /* ButterflyCards 15 - 5000it.mlmodel */,
 				9735EB8924A799D1007634FE /* AppDelegate.swift */,
 				9735EB8B24A799D1007634FE /* SceneDelegate.swift */,
 				9735EB8D24A799D1007634FE /* ViewController.swift */,
@@ -143,7 +145,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9735EBB124A7CEB8007634FE /* LICENSE.txt in Resources */,
 				9735EBAA24A7CDB3007634FE /* Main.storyboard in Resources */,
 				9735EB9624A799D2007634FE /* LaunchScreen.storyboard in Resources */,
 				9735EB9324A799D2007634FE /* Assets.xcassets in Resources */,
@@ -160,6 +161,7 @@
 				9735EB8E24A799D1007634FE /* ViewController.swift in Sources */,
 				9735EBAE24A7CE99007634FE /* ButterflyPocMachiKoro - 300.mlmodel in Sources */,
 				9735EBAC24A7CE20007634FE /* VisionObjectRecognitionViewController.swift in Sources */,
+				97D6DC2C24D81865005BF046 /* ButterflyCards 15 - 5000it.mlmodel in Sources */,
 				9735EB8A24A799D1007634FE /* AppDelegate.swift in Sources */,
 				9735EB8C24A799D1007634FE /* SceneDelegate.swift in Sources */,
 			);

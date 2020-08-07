@@ -10,5 +10,5 @@ module.exports = {
     description: "A meditation about More-Than-Human-Centered Design",
   },
   /* Your site config here */
-  plugins: [],
+  plugins: [`gatsby-plugin-react-helmet`],
 }

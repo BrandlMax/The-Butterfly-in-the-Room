@@ -4,14 +4,16 @@ import "../components/textmedia.css"
 
 export default function TextMedia({ title, text, media, type, alt }) {
   function renderMedia(media, type, alt) {
-    if (type !== "video" && media !== undefined) {
-      return (
-        <div>
-          <Image name={media} type={type} alt={alt} />
-        </div>
-      )
-    } else if (type !== "video" && media !== undefined) {
-      return <div>Video</div>
+    if (media != undefined) {
+      if (type !== "video" && media !== undefined) {
+        return (
+          <div>
+            <Image name={media} type={type} alt={alt} />
+          </div>
+        )
+      } else if (type !== "video" && media !== undefined) {
+        return <div>Video</div>
+      }
     }
   }
 

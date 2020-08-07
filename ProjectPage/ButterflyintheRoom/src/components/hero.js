@@ -2,33 +2,38 @@ import React from "react"
 import Image from "../components/image"
 import "../components/hero.css"
 
+const video = require("../images/LandingpageHeader.mp4")
+
+const scrollToDownload = function () {
+  document.querySelector("#downloads").scrollIntoView({
+    behavior: "smooth",
+  })
+}
+
 export default function Hero() {
   return (
     <section className="heroImage">
       <div className="heroContent">
-        <Image
-          className="logo"
-          name="Logo"
-          type="png"
-          alt="Butterfly in the Room"
-        />
+        <video muted playsInline autoPlay loop>
+          <source
+            src={video}
+            type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+          />
+        </video>
         <nav>
-          <a href="#play">
+          {/* <a href="#play">
             <Image name="play" type="svg" alt="" />
             Play Trailer
           </a>
           <a href="#about">
             <Image name="about" type="svg" alt="" />
             About the Installation
-          </a>
-          <a href="#downloads">
+          </a> */}
+          <a className="quickDownload" onClick={scrollToDownload}>
             <Image name="down" type="svg" alt="" />
-            Download online version
+            Download interactive prototype
           </a>
         </nav>
-      </div>
-      <div className="heroMask">
-        <Image name="BubbleMask" type="svg" alt="" />
       </div>
     </section>
   )

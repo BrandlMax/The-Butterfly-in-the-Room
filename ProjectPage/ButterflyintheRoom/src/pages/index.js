@@ -5,12 +5,17 @@ import TextMedia from "../components/textmedia"
 import Downloads from "../components/downloads"
 import Context from "../components/context"
 import Footer from "../components/footer"
+import { Helmet } from "react-helmet"
 
 import "../pages/index.css"
 
 export default function Home() {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>The Butterfly in the Room</title>
+      </Helmet>
       <Hero />
 
       <Trailer />
@@ -21,8 +26,6 @@ export default function Home() {
         text={`
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         `}
-        media="exampleImageMedia"
-        type="png"
       />
 
       <TextMedia
@@ -30,7 +33,7 @@ export default function Home() {
         text={`
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         `}
-        media="exampleImageMedia"
+        media="IMDArtikel_Room"
         type="png"
       />
 
@@ -39,7 +42,7 @@ export default function Home() {
         text={`
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         `}
-        media="exampleImageMedia"
+        media="IMDArtikel_Table"
         type="png"
       />
 
@@ -48,7 +51,7 @@ export default function Home() {
         text={`
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         `}
-        media="exampleImageMedia"
+        media="Cards"
         type="png"
       />
 
@@ -57,7 +60,7 @@ export default function Home() {
         text={`
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         `}
-        media="exampleImageMedia"
+        media="ActorNetwork"
         type="png"
       />
 
@@ -70,8 +73,8 @@ export default function Home() {
           <br/><br/>
           It bases on their Research about <a href="https://assets.ctfassets.net/63aiuaob1j2v/2dMlr9rcKqrbGYMVg9fviz/583012caab67b6bc16ecccb108982a0e/Entangled-Interface_Brandl_Kaltofen.pdf" target="_blank">Entangled Interfaces</a>.
           <br/><br/>
-          A special thanks goes to Prof. Claudius Coenen, Prof. Andrea Krajewski, Prof. Garrit Schaap, Prof. Tsunemitsu Tanaka, Dieter Stasch, Dr. Stefan Voigt, Christoph Diederichs, Holger Bassarek and Michael Allinger, who always provided us with assistance and advice during the last semesters.
-        `}
+          Supervised by Prof. Andrea Krajewski, Garrit Schaap, Andreas Schindler and Prof. Tsunemitsu Tanaka,
+          `}
       />
 
       <Footer />
