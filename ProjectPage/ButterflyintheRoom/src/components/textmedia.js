@@ -21,7 +21,7 @@ export default function TextMedia({ title, text, media, type, alt }) {
     <section className="textMedia">
       <div className="content">
         <h2>{title}</h2>
-        <p>{text}</p>
+        <p dangerouslySetInnerHTML={{ __html: text }}></p>
       </div>
       <div className="media">{renderMedia(media, type, alt)}</div>
     </section>

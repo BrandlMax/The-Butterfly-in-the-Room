@@ -23,9 +23,10 @@ export default function Home() {
       <div id="about">
         <TextMedia
           title="About the installation"
-          text={`The Butterfly in the Room takes visitors on a journey through the hidden networks of actors that surround us all.  It was created out of the motivation to serve as an object for the discourse on more-than-human design, to give designers the opportunity to explore the subject and related consequences of their own design.
+          text={`The Butterfly in the Room takes visitors on a journey through the hidden networks of actors that surround us all.  It was created with the intention to serve as an object for discourse on more-than-human design, to give designers the opportunity to explore the subject and related consequences of their own design.
 
-The project deals with the question of how the invisible networks of actors are influenced by human design and how these consequences and the networks themselves can be made visible. Based on the previous research work Entangled Interfaces (Brandl & Kaltofen, 2020), a network of actors that surrounds an unnamed Internet Of Things (IoT) device was explored and analyzed.`}
+The project deals with the question of how the invisible networks of actors are influenced by human design and how these consequences and the networks themselves can be made visible. Based on the previous research project, <a href="http://files.brandlmax.com/Entangled-Interface_Brandl_Kaltofen.pdf" target="_blank">Entangled Interfaces</a>, a network of actors surrounding an unnamed Internet Of Things (IoT) device was explored and analyzed.
+`}
         />
       </div>
 
@@ -72,7 +73,7 @@ The project deals with the question of how the invisible networks of actors are 
         text={`
           This project was developed by <a href="https://www.portfolio.philippkaltofen.com/" target="_blank">Philipp Kaltofen</a> and <a href="https://brandlmax.com/" target="_blank">Maximilian Brandl</a> as the bachelor project in Interactive Media Design at the Darmstadt University of Applied Sciences.
           <br/><br/>
-          It bases on their Research about <a href="http://files.brandlmax.com/Entangled-Interface_Brandl_Kaltofen.pdf" target="_blank">Entangled Interfaces</a>.
+          It is based on their research about <a href="http://files.brandlmax.com/Entangled-Interface_Brandl_Kaltofen.pdf" target="_blank">Entangled Interfaces</a>.
           <br/><br/>
           Supervised by Prof. Andrea Krajewski, Garrit Schaap, Andreas Schindler and Prof. Tsunemitsu Tanaka,
           `}
