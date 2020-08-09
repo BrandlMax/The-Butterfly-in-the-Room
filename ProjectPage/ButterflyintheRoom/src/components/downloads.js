@@ -5,7 +5,7 @@ import "../components/downloads.css"
 export default function Downloads() {
   return (
     <section className="downloads" id="downloads">
-      <div>
+      <div className="downloadWrapper">
         <h2>Downloads</h2>
         <p>Download and test our digital prototype of the showroom</p>
         <div className="platforms">
