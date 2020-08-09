@@ -11,7 +11,7 @@ import "../pages/index.css"
 
 export default function Home() {
   return (
-    <div>
+    <div className="theWrapper">
       <Helmet>
         <meta charSet="utf-8" />
         <title>The Butterfly in the Room</title>
@@ -20,19 +20,20 @@ export default function Home() {
 
       <Trailer />
 
-      <div id="about"></div>
-      <TextMedia
-        title="About the installation"
-        text={`
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        `}
-      />
+      <div id="about">
+        <TextMedia
+          title="About the installation"
+          text={`The Butterfly in the Room takes visitors on a journey through the hidden networks of actors that surround us all.  It was created out of the motivation to serve as an object for the discourse on more-than-human design, to give designers the opportunity to explore the subject and related consequences of their own design.
+
+The project deals with the question of how the invisible networks of actors are influenced by human design and how these consequences and the networks themselves can be made visible. Based on the previous research work Entangled Interfaces (Brandl & Kaltofen, 2020), a network of actors that surrounds an unnamed Internet Of Things (IoT) device was explored and analyzed.`}
+        />
+      </div>
 
       <TextMedia
         title="The Room"
         text={`
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        `}
+          The room serves as a spacial boundary and represents the working space of the designer. The design of the room is based on a further consideration of the development of designers into Life System Architects, from the previous research work. Thus, the working title of the room became "Gods-Room" to provocatively represent the designer as a "creator". In order to achieve this, an attempt was made to exaggerate the clichéd minimalist trend associated with design.
+          `}
         media="IMDArtikel_Room"
         type="png"
       />
@@ -40,8 +41,8 @@ export default function Home() {
       <TextMedia
         title="The Table"
         text={`
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        `}
+          The table, which stands in the middle of the room, is representative of the human-centred design with which we are familiar today. It serves as a juxtaposition to the projection in front of it, which stands for the Post Human-Centered. The view beyond the edge of the table is thus a view beyond the edge of the plate, into a network of actors. The IoT product and a generic persona are projected onto the table in front of the visitors, between these two a relationship will be designed by them.
+          `}
         media="IMDArtikel_Table"
         type="png"
       />
@@ -49,8 +50,8 @@ export default function Home() {
       <TextMedia
         title="The Cards"
         text={`
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        `}
+          The fictional method kit is to be understood as a parody of the currently increasing tools and methodologies of human-centered design. Each of the cards corresponds to an exemplary, specific design decision that visitors can make to shape a relationship. By simply placing the card on the table, the relationship and the network in front of them changes.
+           `}
         media="Cards"
         type="png"
       />
@@ -58,9 +59,9 @@ export default function Home() {
       <TextMedia
         title="The Actor-Network"
         text={`
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        `}
-        media="ActorNetwork"
+          The heart of the installation is the network of actors. The aim is to convey the extent to which the individual, often very different actors are connected. Here, a controller can be used to navigate through the network of actors and to discover the effects of the decisions previously made.
+          `}
+        media="IMDArtikel_Walls"
         type="png"
       />
 
@@ -71,7 +72,7 @@ export default function Home() {
         text={`
           This project was developed by <a href="https://www.portfolio.philippkaltofen.com/" target="_blank">Philipp Kaltofen</a> and <a href="https://brandlmax.com/" target="_blank">Maximilian Brandl</a> as the bachelor project in Interactive Media Design at the Darmstadt University of Applied Sciences.
           <br/><br/>
-          It bases on their Research about <a href="https://assets.ctfassets.net/63aiuaob1j2v/2dMlr9rcKqrbGYMVg9fviz/583012caab67b6bc16ecccb108982a0e/Entangled-Interface_Brandl_Kaltofen.pdf" target="_blank">Entangled Interfaces</a>.
+          It bases on their Research about <a href="http://files.brandlmax.com/Entangled-Interface_Brandl_Kaltofen.pdf" target="_blank">Entangled Interfaces</a>.
           <br/><br/>
           Supervised by Prof. Andrea Krajewski, Garrit Schaap, Andreas Schindler and Prof. Tsunemitsu Tanaka,
           `}

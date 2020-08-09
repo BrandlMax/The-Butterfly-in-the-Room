@@ -1,5 +1,6 @@
 .play {
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
+  padding-top: 10px;
 }

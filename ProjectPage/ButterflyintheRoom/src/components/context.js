@@ -10,7 +10,11 @@ export default function Context({ title, text }) {
         <p dangerouslySetInnerHTML={{ __html: text }}></p>
       </div>
       <div className="media">
-        <Image name="h_da" type="png" alt="Hochschule Darmstadt Logo" />
+        <Image
+          name="IMDArtikel_h_da"
+          type="png"
+          alt="Hochschule Darmstadt Logo"
+        />
       </div>
     </section>
   )

@@ -361,14 +361,14 @@ body {
 }
 
 section {
-  padding-top: 40px;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-top: 80px;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 footer {
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 p {
