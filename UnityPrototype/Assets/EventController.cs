@@ -12,7 +12,8 @@ public class EventController : MonoBehaviour
 
     public void createEvent(string[] data)
     {
-        // name, message, video, event type, actors, required condition, disable condition
+        // 0     1        2      3           4       5                     6
+        // Name, Message, Video, Event Type, Actors, Required Conditition, Disable Condition
         Debug.Log("Create Event: " + data[0]);
 
         GameObject newEventGO = new GameObject();
@@ -20,7 +21,11 @@ public class EventController : MonoBehaviour
         newEventGO.transform.parent = this.gameObject.transform;
         newEventGO.transform.name = data[0];
         newEvent.eventName = data[0];
+        newEvent.eventMessage = data[1];
+        newEvent.AddVideo(data[2]);
         newEvent.eventType = GetEventType(data[3]);
+
+        Debug.Log("E " + data[0] + " Actors: " + data[4]);
 
         Parameter requiredCondition = GetParameter(data[5]);
         if(requiredCondition != null)
@@ -28,6 +33,13 @@ public class EventController : MonoBehaviour
             newEvent.requiredConditions.Add(GetParameter(data[5]));
         }
     }
+
+    /*
+    List<Actor> GetActors(string data)
+    {
+        if(data.Contains)
+    }
+    */
 
     public Parameter GetParameter(string para)
     {

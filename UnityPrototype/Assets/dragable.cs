@@ -32,6 +32,11 @@ public class dragable : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoint
         if (wasScaledUp)
         {
             Debug.Log("In Center");
+            GameObject card = id_ui.getCardGameObject(gameObject.name);
+            id_ui.tableController.addCardToTable(card.GetComponent<Card>());
+            card.transform.localPosition = id_ui.dropPosition.transform.localPosition;
+            card.GetComponent<Rigidbody>().useGravity = true;
+            gameObject.SetActive(false);
         }
         else
         {

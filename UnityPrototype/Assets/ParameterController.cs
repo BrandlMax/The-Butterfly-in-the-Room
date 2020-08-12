@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class ParameterController : MonoBehaviour
 {
+    [Header("Other")]
+    public TableController tableController;
     public List<Parameter> parameters = new List<Parameter>();
+    public List<Parameter> activeParameters = new List<Parameter>();
 
     [Header("Karten Texturen")]
     public Texture2D texture_Ads;
@@ -54,6 +57,16 @@ public class ParameterController : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void addActiveParameter(Parameter parameter)
+    {
+        activeParameters.Add(parameter);
+    }
+
+    public void removeActiveParameter(Parameter parameter)
+    {
+        activeParameters.Remove(parameter);
     }
 
     public void createParameter(string[] data)

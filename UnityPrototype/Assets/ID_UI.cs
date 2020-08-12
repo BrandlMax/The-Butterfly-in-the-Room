@@ -9,6 +9,9 @@ public class ID_UI : MonoBehaviour
     public GameObject cardUIPrefab;
     public GameObject cta_card;
     public GameObject cardContainer;
+    public ID_Setup id_setup;
+    public GameObject dropPosition;
+    public TableController tableController;
 
     // Start is called before the first frame update
     void Start()
@@ -47,10 +50,15 @@ public class ID_UI : MonoBehaviour
             cardElement.transform.SetParent(cardContainer.transform);
             cardElement.name = card.name;
             RectTransform rt = cardElement.GetComponent<RectTransform>();
-            rt.localPosition = new Vector3(1058, i * rt.sizeDelta.y, 0);
+            rt.localPosition = new Vector3(900, i * rt.sizeDelta.y, 0);
             rt.localScale = new Vector3(1,1,1);
             cardElement.GetComponent<Image>().sprite = card.sprite;
             i++;
         }
+    }
+
+    public GameObject getCardGameObject(string name)
+    {
+        return id_setup.kartenContainer.transform.Find(name).gameObject;
     }
 }
