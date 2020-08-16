@@ -1,21 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Video;
 using UnityEngine;
 
 public class Event : MonoBehaviour
 {
     public int id;
+
+    [Header("Content")]
     public string eventName;
-    public EventController.EventType eventType;
     public string eventMessage;
-    public List<Parameter> requiredConditions = new List<Parameter>();
+    public VideoClip video;
+    public EventController.EventType eventType;
     public List<Actor> actors = new List<Actor>();
+    public List<Parameter> requiredConditions = new List<Parameter>();    
     public bool isActive = false;
 
     // Start is called before the first frame update
     void Start()
     {
         
+    }
+
+    public void AddVideo(string fileName)
+    {
+
     }
 
     // Update is called once per frame

@@ -11,6 +11,7 @@ public class CameraManager : MonoBehaviour
     bool following = false;
     [Range(0f, 10f)]
     public float distanceToActor = 5;
+    public float speed = 0.4f;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +26,7 @@ public class CameraManager : MonoBehaviour
         {
             if(Vector3.Distance(target.position, transform.position) > distanceToActor && following)
             {
-                transform.position = Vector3.MoveTowards(transform.position, target.position, 0.1f);
+                transform.position = Vector3.MoveTowards(transform.position, target.position, speed);
                 transform.LookAt(target);
             } else
             {
@@ -44,6 +45,15 @@ public class CameraManager : MonoBehaviour
     {
         following = true;
         int index = Random.Range(0, actorGenerator.actors.Count - 1);
+        target = actorGenerator.actors[index].gameObject.transform;
+
+        // Send data to UI
+        uIController.setCurrentActor(target.transform.name);
+    }
+
+    public void lookAtActor(int index)
+    {
+        following = true;        
         target = actorGenerator.actors[index].gameObject.transform;
 
         // Send data to UI

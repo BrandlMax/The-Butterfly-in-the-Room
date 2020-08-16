@@ -10,6 +10,7 @@ public class ActorGenerator : MonoBehaviour
     public GameObject sphere;
     public GameObject textPrefab;
     public int radius = 50;
+    public UIController uIController;
 
     public void addActor(string[] data)
     {
@@ -82,7 +83,10 @@ public class ActorGenerator : MonoBehaviour
             }
 
             // Setup Interactions
-        }        
+        }
+
+        // Setup UI
+        uIController.generateActorList(actors);
     }
 
     public Actor findRelative(string name)
