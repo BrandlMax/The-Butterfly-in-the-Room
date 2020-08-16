@@ -2,12 +2,12 @@ import React from "react"
 import Image from "../components/image"
 import "../components/downloads.css"
 
-export default function Downloads() {
+export default function Downloads({ title, text }) {
   return (
     <section className="downloads" id="downloads">
       <div className="downloadWrapper">
-        <h2>Downloads</h2>
-        <p>Download and test our digital prototype of the showroom</p>
+        <h2>{title}</h2>
+        <p dangerouslySetInnerHTML={{ __html: text }}></p>
         <div className="platforms">
           <a href="#">
             <Image name="Mac" type="svg" alt="Download for Windows" />

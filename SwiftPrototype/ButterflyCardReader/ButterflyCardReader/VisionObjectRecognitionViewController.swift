@@ -27,7 +27,7 @@ class VisionObjectRecognitionViewController: ViewController {
         // Setup Vision parts
         let error: NSError! = nil
         
-        guard let modelURL = Bundle.main.url(forResource: "ButterflyCards 15 - 5000it", withExtension: "mlmodelc") else {
+        guard let modelURL = Bundle.main.url(forResource: "ButterflyTrailer 1", withExtension: "mlmodelc") else {
             return NSError(domain: "VisionObjectRecognitionViewController", code: -1, userInfo: [NSLocalizedDescriptionKey: "Model file is missing"])
         }
         do {

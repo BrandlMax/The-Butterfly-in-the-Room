@@ -32,7 +32,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     var socketConnection:  URLSessionWebSocketTask?
 
     func connectToSocket() {
-      let url = URL(string: "ws://192.168.0.187:1337")!
+      let url = URL(string: "ws://192.168.188.33:1337")!
       socketConnection = URLSession.shared.webSocketTask(with: url)
       socketConnection?.resume()
     }
@@ -100,7 +100,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         captureConnection?.isEnabled = true
         do {
             try  videoDevice!.lockForConfiguration()
-            videoDevice?.videoZoomFactor = 1.6
+            videoDevice?.videoZoomFactor = 3
             let dimensions = CMVideoFormatDescriptionGetDimensions((videoDevice?.activeFormat.formatDescription)!)
             bufferSize.width = CGFloat(dimensions.width)
             bufferSize.height = CGFloat(dimensions.height)

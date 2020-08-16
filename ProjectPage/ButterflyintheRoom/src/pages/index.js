@@ -3,6 +3,7 @@ import Hero from "../components/hero"
 import Trailer from "../components/trailer"
 import TextMedia from "../components/textmedia"
 import Downloads from "../components/downloads"
+import Feedback from "../components/feedback"
 import Context from "../components/context"
 import Footer from "../components/footer"
 import { Helmet } from "react-helmet"
@@ -66,7 +67,20 @@ The project deals with the question of how the invisible networks of actors are 
         type="png"
       />
 
-      <Downloads />
+      <Downloads
+        title="Downloads"
+        text={`
+          Download and test our digital prototype of the
+                         showroom.
+          `}
+      />
+
+      <Feedback
+        title="Feedback and suggestions"
+        text={`
+          You have comments, thoughts or even suggestions for scenarios and actors for our installation? We would be happy if you share them with us.
+          `}
+      />
 
       <Context
         title="Context"
