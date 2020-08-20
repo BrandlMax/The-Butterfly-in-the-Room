@@ -4,7 +4,7 @@ import "../components/textmedia.css"
 
 export default function TextMedia({ title, text, media, type, alt }) {
   function renderMedia(media, type, alt) {
-    if (media != undefined) {
+    if (media !== undefined) {
       if (type !== "video" && media !== undefined) {
         return (
           <div>

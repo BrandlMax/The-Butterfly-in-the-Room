@@ -26,7 +26,7 @@ export default function Home() {
           title="About the installation"
           text={`The Butterfly in the Room takes visitors on a journey through the hidden networks of actors that surround us all.  It was created with the intention to serve as an object for discourse on more-than-human design, to give designers the opportunity to explore the subject and related consequences of their own design.
 
-The project deals with the question of how the invisible networks of actors are influenced by human design and how these consequences and the networks themselves can be made visible. Based on the previous research project, <a href="http://files.brandlmax.com/Entangled-Interface_Brandl_Kaltofen.pdf" target="_blank">Entangled Interfaces</a>, a network of actors surrounding an unnamed Internet Of Things (IoT) device was explored and analyzed.
+The project deals with the question of how the invisible networks of actors are influenced by human design and how these consequences and the networks themselves can be made visible. Based on the previous research project, <a href="http://files.brandlmax.com/Entangled-Interface_Brandl_Kaltofen.pdf" target="_blank" rel="noreferrer">Entangled Interfaces</a>, a network of actors surrounding an unnamed Internet Of Things (IoT) device was explored and analyzed.
 `}
         />
       </div>
@@ -61,33 +61,32 @@ The project deals with the question of how the invisible networks of actors are 
       <TextMedia
         title="The Actor-Network"
         text={`
-          The heart of the installation is the network of actors. The aim is to convey the extent to which the individual, often very different actors are connected. Here, a controller can be used to navigate through the network of actors and to discover the effects of the decisions previously made.
+          The heart of the installation is the network of actors. The aim is to convey the extent to which the individual, often very different actors are connected. Here, a controller can be used to navigate through the network of actors and to discover the effects of the decisions previously made. Scan the QR Code with your smartphone to explore the room in VR.
           `}
-        media="IMDArtikel_Walls"
+        media="IMDArtikel_WallsAR"
         type="png"
       />
 
       <Downloads
-        title="Downloads"
+        title="Interactive Preview (Sneak-Peek)"
         text={`
-          Download and test our digital prototype of the
-                         showroom.
+          Download and try our small interactive preview of the installation.
           `}
       />
 
       <Feedback
         title="Feedback and suggestions"
         text={`
-          You have comments, thoughts or even suggestions for scenarios and actors for our installation? We would be happy if you share them with us.
+          You have comments, thoughts or even suggestions for scenarios and actors for our installation? We would be happy if you share them with us. Especially the scenarios are a work in progress, so we would be very pleased to receive your suggestions.
           `}
       />
 
       <Context
         title="Context"
         text={`
-          This project was developed by <a href="https://www.portfolio.philippkaltofen.com/" target="_blank">Philipp Kaltofen</a> and <a href="https://brandlmax.com/" target="_blank">Maximilian Brandl</a> as the bachelor project in Interactive Media Design at the Darmstadt University of Applied Sciences.
+          This project was developed by <a href="https://www.portfolio.philippkaltofen.com/" target="_blank" rel="noreferrer">Philipp Kaltofen</a> and <a href="https://brandlmax.com/" target="_blank" rel="noreferrer">Maximilian Brandl</a> as the bachelor project in Interactive Media Design at the Darmstadt University of Applied Sciences.
           <br/><br/>
-          It is based on their research about <a href="http://files.brandlmax.com/Entangled-Interface_Brandl_Kaltofen.pdf" target="_blank">Entangled Interfaces</a>.
+          It is based on their research about <a href="http://files.brandlmax.com/Entangled-Interface_Brandl_Kaltofen.pdf" target="_blank" rel="noreferrer">Entangled Interfaces</a>.
           <br/><br/>
           Supervised by Prof. Andrea Krajewski, Garrit Schaap, Andreas Schindler and Prof. Tsunemitsu Tanaka,
           `}

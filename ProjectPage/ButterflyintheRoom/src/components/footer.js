@@ -8,10 +8,18 @@ export default function Footer() {
       <div class="footerWrapper">
         <Image name="imd" type="svg" alt="We love Interactive Media Design" />
         <nav>
-          <a href="https://aiiot.space/privacy" target="_blank">
+          <a
+            href="https://aiiot.space/privacy"
+            target="_blank"
+            rel="noreferrer"
+          >
             Privacy
           </a>
-          <a href="https://aiiot.space/impressum" target="_blank">
+          <a
+            href="https://aiiot.space/impressum"
+            target="_blank"
+            rel="noreferrer"
+          >
             Impressum
           </a>
         </nav>

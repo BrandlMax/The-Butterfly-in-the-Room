@@ -9,15 +9,21 @@ export default function Downloads({ title, text }) {
         <h2>{title}</h2>
         <p dangerouslySetInnerHTML={{ __html: text }}></p>
         <div className="platforms">
-          <a href="#">
+          <a
+            href="https://butterfly.brandlmax.com/_downloads/ButterflyInTheRoom_MacOS.zip"
+            target="_blank"
+          >
             <Image name="Mac" type="svg" alt="Download for Windows" />
           </a>
-          <a href="#">
+          <a
+            href="https://butterfly.brandlmax.com/_downloads/ButterflyInTheRoom_Windows.zip"
+            target="_blank"
+          >
             <Image name="Windows" type="svg" alt="Download for Windows" />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <Image name="Linux" type="svg" alt="Download for Windows" />
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

@@ -31,7 +31,7 @@ export default function Hero() {
           </a> */}
           <a className="quickDownload" onClick={scrollToDownload}>
             <Image name="down" type="svg" alt="" />
-            Download interactive prototype
+            Download interactive preview
           </a>
         </nav>
       </div>
