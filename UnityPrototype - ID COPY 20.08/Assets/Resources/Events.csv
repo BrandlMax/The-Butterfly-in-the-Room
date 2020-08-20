@@ -1,0 +1,56 @@
+﻿Name,Message,Video,Event Type,Actors,Required Conditition,Disable Condition
+Cloud,Cloud solutions are seen as convenient and standard and are therefore no longer questioned.,,Hazard,Designer,Cloud Storage,Cat Content
+Cloud,More land is needed for the giant server farms!,,Issue,Geological Surface / Landscape,Cloud Storage,Cat Content
+Cloud,"A monopoly formation of the Hoster arises, because one sets on the same offerers and services (AWS / Apple / Google)",,Hazard,Internet Infrastructure,Cloud Storage,Cat Content
+Cloud,"Gets sensitive metadata, and also makes users dependent because they store the data with them.",,Hazard,IoT Corp,Cloud Storage,Cat Content
+Cloud,"Private data are no longer stored at home, where you have physical control over them, but are now the property of the data center.",,Issue,Private Data,Cloud Storage,Cat Content
+Cloud,Power consumption and space requirements are increasing.,,Issue,"Server Farm,Server",Cloud Storage,Cat Content
+Cloud,"Due to the new possibilities that come with the user data, the risk of a questionable motivation to abuse the data for an increase in market value.",,Hazard,Shareholder,Cloud Storage,Cat Content
+Cloud,"Society learns over the years that data does not belong to them, so no one has a sense of privacy anymore.",,Hazard,Society,Cloud Storage,Cat Content
+Cloud,"Pressure to expand the Internet infrastructure is increasing, as otherwise the population will no longer have access to their data stored in the cloud.",,Hazard,State / Government,Cloud Storage,Cat Content
+Home Stationed,The entire family can use the device.,,Positive,"Family,Family Budget",Home Stationed,
+Home Stationed,"Through home placement, not only the user's usage data but also that of family and friends can be stored.",,Hazard,"Family,Private Data,Data Exploitation",Home Stationed,Cat Content
+On Device Storage,Only limited memory available on the device.,,Issue,IoT Device,On Device Storage,Cat Content
+On Device Storage,"Because the data is stored locally on the device, potential data leakage vulnerabilities are reduced and the data belongs to the user himself.",,Positive,"User,Private Data,Data Exploitation",On Device Storage,
+Plastic,Plastic is not biodegradable. It can remain in the environment for up to hundreds of years. Also the recycling process is not an easy and clean one.,,Issue,PVC / Plastic,PVC Plastic,Cat Content
+Plastic,"Plastic can find its way into the oceans through improper disposal, but also in the form of microplastic!",,Issue,Ocean,PVC Plastic,Cat Content
+Plastic,Plastic recycling means that plastic is still produced. Also the recycling process is not infinitely applicable and the processes are usually not environmentally friendly or carbon emission free.,,Issue,Plastic Recycling Facilities,PVC Plastic,Cat Content
+Plastic copy,Fish can suffocate on the plastic or eat harmful microplastics.,,Issue,Fish,PVC Plastic,Cat Content
+Social Integration,A new ad format especially for IoT is being developed to infect this medium as well.,,Issue,Ads,social integration,Cat Content
+Social Integration,New ways of distributing advertising with IoT are being developed.,,Hazard,Advertiser,social integration,Cat Content
+Social Integration,"Through social media integration, the platforms pick up important meta-information from the users.",,Issue,"Private Data,Social Media Platform",social integration,Cat Content
+Speech Recognition,Danger due to bias in language models.,,Hazard,Language Model,Speech Recognition,Cat Content
+Speech Recognition,"For the training and for running the recognition, a high energy consumption results!",,Hazard,Voice AI,Speech Recognition,Cat Content
+Wearable,"Components must become smaller and smaller, so more or more precise machines are needed.",,Hazard,Component Traders,Wearable,Cat Content
+Wearable,"Due to the new features, fewer watches are sold and more classic watches are delivered to the store, which can lead to waste.",,Hazard,2nd Hand Resellers,Wearable,Cat Content
+Wearable,Transaction data is recorded everywhere and thus represents a potential vulnerability in their privacy for the users,,Hazard,Data Exploitation,Wearable,Cat Content
+Wearable,Loses his job to a machine because he can no longer assemble the fine materials by hand.,,Issue,Assembly Line Worker,Wearable,Cat Content
+Wearable,A Wearable requires finer materials and a finer finish. More machines are now needed because employees are no longer able to assemble the fine parts by hand quickly enough.,,Hazard,Assembler,Wearable,Cat Content
+Wearable,"There are fewer and fewer specialists for the small components, so more has to be produced overseas. The use of freighters is increasing.",,Hazard,Cargoships,Wearable,Cat Content
+Wearable,A real design trend of wearable devices has started.,,Hazard,Designer,Wearable,Cat Content
+Wearable,The components of the devices are so small and special that they cannot be reused!,,Issue,e-Waste,Wearable,Cat Content
+Wearable,Chips and components are getting smaller and smaller to fit into a portable device.,,Hazard,Chips / Components,Wearable,Cat Content
+Wearable,The ever smaller devices present engineers with new challenges,,Hazard,Engineers,Wearable,Cat Content
+Wearable,"Since the device can no longer be shared due to portability, everyone in the family wants their own, which puts a strain on the family budget.",,Hazard,Family Budget,Wearable,Cat Content
+Wearable,Insurance companies make use of the movement and fitness data of the wearable to calculate insurance costs.,,Issue,Insurance Company,Wearable,Cat Content
+Wearable,Movement and health data are transferred to IoT Corp.,,Hazard,Private Data,Wearable,Cat Content
+Wearable,An affair is revealed based on the stored motion profile on the device. The device was not safe from jealous partners.,,Hazard,Sophisticated Other,Wearable,Cat Content
+Wearable,A better coverage of the Internet is needed to cover the increasing number of portable devices.,,Hazard,Internet Infrastructure,Wearable,Cat Content
+Wearable,Now has private data of the users and must decide how to deal with it!,,Hazard,IoT Corp,Wearable,Cat Content
+Wearable,"Potential misuse with the data and vital data are collected only from a certain group of people, those who have the income to pay such a wearable.",,Hazard,Training Data,Wearable,Cat Content
+Wearable,The collected vital data could be used to train early detection of diseases.,,Positive,"Data Scientists,Training Data",Wearable,
+Wearable,The number of location data collected is increasing rapidly!,,Issue,Location Data,Wearable,Cat Content
+Wearable,The special small components must be transported together all over the world for assembly.,,Hazard,Transport,Wearable,Cat Content
+Wearable,Gets an awareness of his vital signs.,,Positive,User,Wearable,
+Wearable,The relationship with the jealous partner ends because an affair with the transaction data was uncovered when the device was not locked.,,Hazard,User,Wearable,Cat Content
+Wearable,"As the components become more and more special and smaller, a large part of the garbage pickers' income is lost.",,Hazard,Waste Pickers,Wearable,Cat Content
+Wearable,Increased overseas transport increases noise pollution in the oceans. Whales and other audio-sensitive animals are exposed to higher stress levels.,,Issue,Marine Mammals,Wearable,Cat Content
+Wearable,More devices strain the home network. Frustration levels rise.,,Hazard,Wifi-Router,Wearable,Cat Content
+Wearable / Cloud,"Population demands nationwide Wifi / Internet, as devices are used more and more mobile and do not work without Internet.",,Issue,State / Government,"Wearable,Cloud Storage",Cat Content
+WILDCARD,"Increased risk of collision with transporter ships, as well as health risks from their waste water and ballast water discharges.",,Hazard,Marine Mammals,WILDCARD,Cat Content
+WILDCARD,"Lead, cadmium, chrome and flame-retardant plastics are also found in electronic waste, which are hazardous to health!",,Issue,Waste Pickers,WILDCARD,Cat Content
+WILDCARD,"Acoustic pollution from shipping traffic causes marine mammals to experience higher levels of stress, suppression of vital communication and can lead to hearing loss.",,Issue,Marine Mammals,WILDCARD,Cat Content
+WILDCARD,"There is an increased risk of pollution of the marine environment, through ballast water discharges or leakage water from engine and machinery spaces. If the ship runs aground or is damaged, extreme oil pollution may occur.",,Hazard,Cargoships,WILDCARD,Cat Content
+WILDCARD,"The cargo ships cause a large amount of acoustic, air and water pollution, which has a strong negative impact on the environment! ",,Issue,Cargoships,WILDCARD,Cat Content
+WILDCARD,The user is not able to repair the device on his own.,,Issue,User,WILDCARD,Cat Content
+WILDCARD,Unaudited and unchecked data sets lead to incorrect decisions.,,Hazard,Training Data,WILDCARD,Cat Content

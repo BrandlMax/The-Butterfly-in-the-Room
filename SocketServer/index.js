@@ -15,6 +15,12 @@ server.on("connection", function connection(socket) {
           client.send('{"cards":' + JSONData + "}");
         }
       });
+    } else {
+      server.clients.forEach(function each(client) {
+        if (client !== socket && client.readyState === WebSocket.OPEN) {
+          client.send('empty');
+        }
+      });
     }
   });
 });
@@ -26,6 +32,7 @@ const createCardDataObjectString = (cardDataString) => {
   cardsStringArray.forEach((cardInfo) => {
     cardInfo = cardInfo.replace("(", "");
     cardInfo = cardInfo.replace(")", "");
+    cardInfo = cardInfo.replace(" ", "");
     cardInfoArray = cardInfo.split(":");
     cardInfoArray[1] = cardInfoArray[1].split(",");
     let cardObject = {

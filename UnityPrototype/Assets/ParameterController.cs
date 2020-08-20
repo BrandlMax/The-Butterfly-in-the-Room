@@ -8,6 +8,15 @@ public class ParameterController : MonoBehaviour
     public TableController tableController;
     public List<Parameter> parameters = new List<Parameter>();
     public List<Parameter> activeParameters = new List<Parameter>();
+    public ActorGenerator actorGenerator;
+    Parameter wildcard;
+    [Range(0, 10)]
+    public float distanceCheck = 0.2f;
+
+    [Header("Cards on Table")]
+    public List<GameObject> cardGameObjects = new List<GameObject>();
+    public List<CardML> cardsOnTable = new List<CardML>();
+    public List<GameObject> notOnTable = new List<GameObject>();
 
     [Header("Karten Texturen")]
     public Texture2D texture_Ads;
@@ -56,33 +65,242 @@ public class ParameterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        UpdateCardsOnTable();
+        activateWildcard();
+    }
+
+    public void UpdateCardsOnTable()
+    {
+        notOnTable.Clear();
+
+        foreach(GameObject entry in cardGameObjects)
+        {
+            notOnTable.Add(entry);
+        }
+
+        foreach(CardML entry in cardsOnTable)
+        {
+            GameObject card;
+            switch (entry.name)
+            {
+                case "Social":
+                    card = FindCardGameObjectByName("social integration");
+                    UpdateCardPosition(card, entry.x, entry.y);
+                    break;
+                case "Wearable":
+                    card = FindCardGameObjectByName("Wearable");
+                    UpdateCardPosition(card, entry.x, entry.y);
+                    break;
+                case "Speech":
+                    card = FindCardGameObjectByName("Speech Recognition");
+                    UpdateCardPosition(card, entry.x, entry.y);
+                    break;
+                case "Gaming":
+                    card = FindCardGameObjectByName("Gamification Aspect");
+                    UpdateCardPosition(card, entry.x, entry.y);
+                    break;
+                case "onDevice":
+                    card = FindCardGameObjectByName("On Device Storage");
+                    UpdateCardPosition(card, entry.x, entry.y);
+                    break;
+                case "Plastic":
+                    card = FindCardGameObjectByName("PVC Plastic");
+                    UpdateCardPosition(card, entry.x, entry.y);
+                    break;
+                case "Cloud":
+                    card = FindCardGameObjectByName("Cloud Storage");
+                    UpdateCardPosition(card, entry.x, entry.y);
+                    break;
+                default:
+                    card = null;
+                    break;
+            }
+            if (notOnTable.Contains(card))
+            {
+                notOnTable.Remove(card);
+                card.SetActive(true);
+            }
+        }
+        foreach(GameObject entry in notOnTable)
+        {
+            entry.SetActive(false);
+        }
+    }
+
+    public GameObject FindCardGameObjectByName(string name)
+    {
+        foreach(GameObject card in cardGameObjects)
+        {
+            if(card.GetComponent<Parameter>().parameterName == name)
+            {
+                return card;
+            }
+        }
+        Debug.Log("Cant find '" + name + "'");
+        return null;
+    }
+
+    public double Map(double x, double in_min, double in_max, double out_min, double out_max)
+    {
+        return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+    }
+
+    //public void cleanUpTable()
+    //{
+    //    Debug.Log("Clean up table");
+    //    foreach(CardML card in cardsOnTable)
+    //    {
+    //        GameObject cardGO;
+    //        switch (card.name)
+    //        {
+    //            case "Social":
+    //                cardGO = FindCardGameObjectByName("social integration");                    
+    //                break;
+    //            case "Wearable":
+    //                cardGO = FindCardGameObjectByName("Wearable");                    
+    //                break;
+    //            case "Speech":
+    //                cardGO = FindCardGameObjectByName("Speech Recognition");                    
+    //                break;
+    //            case "Gaming":
+    //                cardGO = FindCardGameObjectByName("Gamification Aspect");                    
+    //                break;
+    //            case "onDevice":
+    //                cardGO = FindCardGameObjectByName("On Device Storage");                    
+    //                break;
+    //            case "Plastic":
+    //                cardGO = FindCardGameObjectByName("PVC Plastic");                    
+    //                break;
+    //            case "Cloud":
+    //                cardGO = FindCardGameObjectByName("Cloud Storage");                    
+    //                break;
+    //            default: //
+    //                cardGO = null;
+    //                break;
+    //        }
+    //        if(cardGO != null)
+    //        {
+    //            Parameter p = cardGO.GetComponent<Parameter>();
+    //            Debug.Log("Lifetime of " + p.parameterName + ": " + p.lifetime);
+    //            if (p.lifetime > 2)
+    //            {
+    //                removeActiveParameter(p);
+    //            }
+    //        }
+    //    } 
+    //}
+
+    public void UpdateCardPosition(GameObject card, float x, float y)
+    {
+        if(card != null)
+        {         
+            Debug.Log("Updating card: " + card.name);
+            card.SetActive(true);
+            float x_mapped = (float)Map(y, 320f, 70f, -0.06f, 0.43f);            
+            float y_mapped = (float)Map(x, 450f, 70f, -1.5f, -2.273f);
+            Vector3 pos = new Vector3(x_mapped, 0.9f, y_mapped);
+            if(Vector3.Distance(card.transform.localPosition, pos) > distanceCheck)
+            {
+                Debug.Log("Distance: " + Vector3.Distance(card.transform.position, pos));
+                card.transform.localPosition = pos;
+            }
+            tableController.addCardToTable(card.GetComponent<Card>());
+            // card.GetComponent<Parameter>().lifetime = 0f;
+        } else
+        {
+            Debug.Log("Card is null");
+        }
     }
 
     public void addActiveParameter(Parameter parameter)
     {
-        activeParameters.Add(parameter);
+        if(activeParameters.Contains(parameter) == false)
+        {
+            parameter.gameObject.SetActive(true);
+
+            // Add to List
+            activeParameters.Add(parameter);
+
+            // Activate Events
+            parameter.isActive = true;
+            foreach(Event e in parameter.events)
+            {
+                e.ActivateEvent();
+            }
+        }
     }
 
     public void removeActiveParameter(Parameter parameter)
     {
         activeParameters.Remove(parameter);
+        parameter.isActive = false;
+        // parameter.gameObject.SetActive(false);
+
+        // Remove lines
+        //LineRenderer[] lrs = parameter.gameObject.GetComponentsInChildren<LineRenderer>();
+        //foreach(LineRenderer lr in lrs)
+        //{
+        //    lr.gameObject.SetActive(false);
+        //}
     }
 
     public void createParameter(string[] data)
     {
-        // name, category, event1, actors, event2
-        // Debug.Log("Create Parameter: " + data[0]);
+        // name, category, actors, event1, event2
 
         GameObject newParameterGO = new GameObject();
         Parameter newParameter = newParameterGO.AddComponent<Parameter>();
         newParameterGO.transform.parent = this.gameObject.transform;
         newParameterGO.transform.name = data[0];
+
+        newParameter.parameterController = this;
+
+        // Fill with data
         newParameter.parameterName = data[0];
         newParameter.category = GetCategory(data[1]);
+        
+        // Texture & Sprite
         newParameter.texture = GetTexture(data[0]);
         newParameter.sprite = GetSprite(data[0]);
+
+        // Line Color
+        newParameter.color = getColorByCardname(data[0]);
+
+        // Add to list
         parameters.Add(newParameter);
+
+        if (newParameter.parameterName == "WILDCARD")
+        {
+            wildcard = newParameter;
+        }
+    }
+
+    public Color getColorByCardname(string name)
+    {
+        switch (name)
+        {
+            case "social integration":
+                return getColor(cardColor.Gray);
+            case "Wearable":
+                return getColor(cardColor.Green);
+            case "Speech Recognition":
+                return getColor(cardColor.Green);
+            case "Gamification Aspect":
+                return getColor(cardColor.Gray);
+            case "On Device Storage":
+                return getColor(cardColor.Yellow);
+            case "PVC Plastic":
+                return getColor(cardColor.Violet);
+            case "Cloud Storage":
+                return getColor(cardColor.Yellow);
+            default:
+                return new Color(0, 0, 0, 0);
+        }
+    }
+
+    public void activateWildcard()
+    {
+            addActiveParameter(wildcard);    
     }
 
     public enum category
@@ -98,6 +316,39 @@ public class ParameterController : MonoBehaviour
         Community,
         Material,
         Funding
+    }
+
+    public enum cardColor
+    {
+        Blue,
+        Red,
+        Gray,
+        Violet,
+        Green,
+        Yellow
+    }
+
+    [Header("Colors")]
+    public List<Color> cardColors = new List<Color>(6);
+
+    public Color getColor(cardColor c)
+    {
+        switch (c)
+        {
+            case cardColor.Blue:
+                return cardColors[0];
+            case cardColor.Red:
+                return cardColors[1];
+            case cardColor.Gray:
+                return cardColors[2];
+            case cardColor.Violet:
+                return cardColors[3];
+            case cardColor.Green:
+                return cardColors[4];
+            case cardColor.Yellow:
+                return cardColors[5];
+        }
+        return new Color(0,0,0);
     }
 
     public Texture2D GetTexture(string name)

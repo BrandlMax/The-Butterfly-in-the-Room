@@ -1,0 +1,101 @@
+﻿Name,Actor A,Actor B
+connects to,Wifi-Router,Internet Infrastructure
+are disturbed by,Marine Mammals,Cargoships
+collects,Waste Pickers,e-Waste
+elects,User,State / Government
+cares,User,Domestic Cat
+is part of,User,Family
+connects to,User,Wifi-Router
+loves,User,Sophisticated Other
+buys from,User,Vendors
+is part of,User,Society
+has,User,User Budget
+trains,Training Data,Voice AI
+detects usage data,Tracker,Social Media Platform
+remembers,Tracker,Identification Systems
+maintains,State / Government,State Budget
+manage,State / Government,State Budget
+regulates,State / Government,Family
+regulates,State / Government,User
+shares,Social Media User,Fake News
+contains,Social Media Platform,Likes
+shapes,Social Media Platform,Society
+uses,Social Media Platform,Tracker
+gives platform,Social Media Platform,Influencer
+controls,Shareholder,Corp Budget
+owns,Shareholder,IoT Corp
+works on,Sailors,Cargoships
+transported by,Material,Cargoships
+exposes,Likes,Interests
+influences,Language Model,Voice AI
+is build from,IoT Device,Material
+becomes,IoT Device,e-Waste
+maintains,IoT Corp,Corp Budget
+manages,IoT Corp,Corp Budget
+employs,IoT Corp,Data Scientists
+generates,Influencer,Content / Posts
+shapes,Influencer,Society
+lives in,Fish,Ocean
+elects,Family,State / Government
+engages in,Family,Community
+lives next to,Family,Neighbour
+cares,Family,Domestic Cat
+lives in,Family,Domestic / Home
+uses,Family,Wifi-Router
+manipulates,Fake News,Society
+builds,Engineers,IoT Device
+pollutes,e-Waste,Geological Surface / Landscape
+is disposed in,e-Waste,Landfills
+gives specs,Designer,Engineers
+designs,Designer,IoT Device
+analyses,Data Scientists,Training Data
+curates,Data Scientists,Training Data
+modifies,Data Scientists,Training Data
+pays,Corp Budget,Advertiser
+contains,Content / Posts,Fake News
+directs,CEO,IoT Corp
+pollutes,Cargoships,Ocean
+uses,Assembly Line Worker,Tools
+employs,Assembler,Assembly Line Worker
+generates,Advertiser,Ads
+sells to,2nd Hand Resellers,Remanufacturers
+sold by,2nd Hand Product,2nd Hand Resellers
+sells,Vendors,IoT Device
+expose,Tracker,Interests
+generates,Tracker,Private Data
+contains,Private Data,Profile Information
+gets recycled,2nd Hand Product,Dismantlers
+part of,Server,Server Farm
+runs on,Social Media Platform,Server Farm
+exposes,Profile Information,Interests
+has,Content / Posts,Location Data
+owns,Recycling Enterprises,Plastic Recycling Facilities
+gets recycled,PVC / Plastic,Plastic Recycling Facilities
+transports,Cargoships,Chips / Components
+uses,Assembler,PVC / Plastic
+insures,Insurance Company,User
+pays,User,Insurance Company
+insures,Insurance Company,Family
+pays,Family,Insurance Company
+uses,Insurance Company,Private Data
+concludes,Payment History,Savings
+has,User,Savings
+,,
+,,
+concludes,Payment History,Profit
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,

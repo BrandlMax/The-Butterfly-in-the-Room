@@ -1,0 +1,2 @@
+C:\Users\pkalt\Documents\GitHub\Project-Butterfly\UnityPrototype\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\pkalt\Documents\GitHub\Project-Butterfly\UnityPrototype\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

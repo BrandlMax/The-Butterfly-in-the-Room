@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class UIController : MonoBehaviour
@@ -19,7 +20,11 @@ public class UIController : MonoBehaviour
     [Header("Front UI")]
     public TMP_Text ui_front_prevActor;
     public TMP_Text ui_front_nextActor;
-    public TMP_Text ui_front_currentActor;    
+    public TMP_Text ui_front_currentActor;
+    public TMP_Text ui_front_activeIssues;
+
+    [Header("Left UI")]
+    public Image ui_left_image;
 
     [Header("SelectionView")]
     public GameObject selectionViewCanvas;
@@ -30,6 +35,11 @@ public class UIController : MonoBehaviour
 
     [Header("DetailView")]
     public GameObject detailViewCanvas;
+    public TMP_Text positive;
+    public TMP_Text hazard;
+    public TMP_Text issue;
+
+    bool axisWasUsed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -57,11 +67,72 @@ public class UIController : MonoBehaviour
         {
             zoomIn();
         }
+
+        if(Input.GetAxis("Joy" + 0 + "X") > -0.2 &&
+            Input.GetAxis("Joy" + 0 + "X") < 0.2 &&
+            Input.GetAxis("Joy" + 0 + "Y") > -0.2 &&
+            Input.GetAxis("Joy" + 0 + "Y") < 0.2
+            )
+        {
+            axisWasUsed = false;
+        }
+
+        if (!axisWasUsed)
+        {
+            if (Input.GetAxis("Joy" + 0 + "X") < -0.2)
+            {
+                scrollActorList(-1);
+                axisWasUsed = true;
+            }
+
+            if (Input.GetAxis("Joy" + 0 + "X") > 0.2)
+            {
+                scrollActorList(1);
+                axisWasUsed = true;
+            }
+            if (Input.GetAxis("Joy" + 0 + "Y") < -0.2)
+            {
+                scrollActorList(-1);
+                axisWasUsed = true;
+            }
+
+            if (Input.GetAxis("Joy" + 0 + "Y") > 0.2)
+            {
+                scrollActorList(1);
+                axisWasUsed = true;
+            }
+
+            if (Input.GetButtonDown("Fire1"))
+            {
+                zoomIn();
+            }
+            if (Input.GetButtonDown("Fire2"))
+            {
+                zoomOut();
+            }
+        }
+        
+
+    }
+
+    public void updateEventCounter(int c)
+    {
+        if(c > 0)
+        {
+            ui_front_activeIssues.text = c + " active issues";
+        } else
+        {
+            ui_front_activeIssues.text = " ";
+        }
+    }
+
+    public void setLeftImage(Sprite sprite)
+    {
+        ui_left_image.sprite = sprite;
     }
 
     public void zoomOut()
-    {
-        Debug.Log("zoomOut()");
+    {        
         if(currentState == 2)
         {
             detailViewCanvas.SetActive(false);
@@ -71,8 +142,7 @@ public class UIController : MonoBehaviour
     }
 
     public void zoomIn()
-    {
-        Debug.Log("zoomIn()");
+    {     
         if (currentState == 1)
         {
             detailViewCanvas.SetActive(true);
@@ -112,9 +182,26 @@ public class UIController : MonoBehaviour
         if (index >= 0 && index < actorList.Count)
         {
             selected.color = Color.gray;
-            selected = actorList[actorList.IndexOf(selected) + axis * -1];
-            selected.color = Color.white;
-            cameraManager.lookAtActor(index+1);
+            if(axis != -1 && index == 0)
+            {
+                // last item
+            } else
+            {
+                Debug.Log("Selected Index: " + actorList.IndexOf(selected));
+                Debug.Log("Actor: " + actorList[actorList.IndexOf(selected)]);
+                selected = actorList[actorList.IndexOf(selected) + (axis * -1)];
+
+                selected.color = Color.white;
+                cameraManager.lookAtActor(actorList.IndexOf(selected));
+                if(index < actorList.Count-1)
+                {
+                    setNextActor(actorList[index + 1]);
+                }
+                if (index > 0)
+                {
+                    setPrevActor(actorList[index - 1]);
+                }
+            }
         }
 
         // Move up or down
@@ -122,18 +209,42 @@ public class UIController : MonoBehaviour
         actorListContainer.GetComponent<RectTransform>().localPosition = new Vector3(pos.x, pos.y + (amount * axis), pos.z);
     }
 
-    public void setCurrentActor(string t)
+    public void setCurrentActor(Actor actor)
     {
-        ui_front_currentActor.text = t;
+        ui_front_currentActor.text = actor.actorName;
+        string s_positive = "";
+        string s_hazard = "";
+        string s_issue = "";
+
+        foreach(Event e in actor.events)
+        {
+            switch (e.eventType)
+            {
+                case (EventController.EventType.Hazard):
+                    s_hazard += e.eventMessage;
+                    break;
+                case (EventController.EventType.Issue):
+                    s_issue += e.eventMessage;
+                    break;
+                case (EventController.EventType.Positive):
+                    s_positive += e.eventMessage;
+                    break;
+            }
+        }
+
+        setLeftImage(actor.GetComponentInChildren<SpriteRenderer>().sprite);
+        positive.text = s_positive;
+        hazard.text = s_hazard;
+        issue.text = s_issue;
     }
 
-    public void setPrevActor(string t)
+    public void setPrevActor(TMP_Text t)
     {
-        ui_front_prevActor.text = t;
+        ui_front_prevActor.text = t.text;
     }
 
-    public void setNextActor(string t)
+    public void setNextActor(TMP_Text t)
     {
-        ui_front_nextActor.text = t;
+        ui_front_nextActor.text = t.text;
     }
 }

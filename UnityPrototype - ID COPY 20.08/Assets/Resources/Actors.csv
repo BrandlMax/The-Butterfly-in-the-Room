@@ -1,0 +1,85 @@
+﻿Name,Parents,Children,Events,Required Parameter for Active,Interaction,Interaction 2
+2nd Hand Product,,,,,"sold by,gets recycled",
+2nd Hand Resellers,,,Wearable,,sells to,sold by
+Ads,,,Social Integration,,,generates
+Advertiser,,,Social Integration,,generates,pays
+Assembler,,,Wearable,,"employs,uses",
+Assembly Line Worker,,,Wearable,,uses,employs
+Cargoships,,,"Wearable,WILDCARD,WILDCARD",,"pollutes,transports","transported by,are disturbed by,works on"
+CEO,IoT Corp,,,,directs,
+Chips / Components,,,Wearable,,,transports
+Cloud,,,,,,
+Community,,,,,,engages in
+Component Traders,,,Wearable,,,
+Content / Posts,,,,,"contains,has",generates
+Corp Budget,IoT Corp,,,,pays,"controls,maintains,manages"
+Data Exploitation,,,"Wearable,On Device Storage,Home Stationed",,,
+Data Scientists,,,Wearable,,"curates,modifies,analyses",employs
+Designer,,,"Wearable,Cloud",,"gives specs,designs",
+Device Separators,,,,,,
+Dismantlers,,,,,,gets recycled
+Distributers,,,,,,
+Domestic / Home,,,,,,lives in
+Domestic Cat,,,,,,"cares,cares"
+e-Waste,,,Wearable,,"pollutes,is disposed in","becomes,collects"
+Engineers,,,Wearable,,builds,gives specs
+Fake News,,,,,manipulates,"contains,shares"
+Family,,,"Home Stationed,Home Stationed",,"elects,lives next to,engages in,cares,lives in,uses,pays","regulates,is part of,insures"
+Family Budget,,,"Wearable,Home Stationed",,,
+Fish,Ocean,,Plastic copy,,lives in,
+Geological Surface / Landscape,,,Cloud,,,pollutes
+Identification Systems,,,,,,remembers
+Influencer,,,,,"shapes,generates",gives platform
+Insurance Company,,,Wearable,,"uses,insures,insures","pays,pays"
+Interests,,,,,,"exposes,expose,exposes"
+Internet Infrastructure,,,"Wearable,Cloud",,,connects to
+IoT Corp,,,"Wearable,Cloud",,"maintains,manages,employs","owns,directs"
+IoT Device,,,On Device Storage,,"is build from,becomes","builds,designs,sells"
+Landfills,,,,,,is disposed in
+Language Model,IoT Device,,Speech Recognition,,influences,
+Leaching Facilities,,,,,,
+Likes,,,,,exposes,contains
+Location Data,,,Wearable,,,has
+Manual Recycling Shops,,,,,,
+Marine Mammals,,,"WILDCARD,Wearable,WILDCARD",,are disturbed by,
+Material,,,,,transported by,is build from
+Metals,,,,,,
+Miners,,,,,,
+Mines,,,,,,
+Neighbour,,,,,,lives next to
+Ocean,,,Plastic,,,"lives in,pollutes"
+Other Platforms & Online Services,,,,,,
+Payment History,,,,,"concludes,concludes",
+Plastic Recycling Facilities,,,Plastic,,,"gets recycled,owns"
+Private Data,,,"Wearable,Social Integration,Cloud,On Device Storage,Home Stationed",,contains,"generates,uses"
+Profile Information,,,,,exposes,contains
+Profit,,,,,,concludes
+Public Data,,,,,,
+PVC / Plastic,,,Plastic,,gets recycled,uses
+Quantification Of Nature,,,,,,
+Recycling Enterprises,,,,,owns,
+Remanufacturers,,,,,,sells to
+Sailors,,,,,works on,
+Savings,,,,,,"concludes,has"
+Sec Material Traders,,,,,,
+Server,,,Cloud,,part of,
+Server Farm,,,Cloud,,,"part of,runs on"
+Shareholder,IoT Corp,,Cloud,,"controls,owns",
+Smelters,,,,,,
+Social Media Platform,,,Social Integration,,"contains,shapes,uses,gives platform,runs on",detects usage data
+Social Media User,,,,,shares,
+Society,,,Cloud,,,"is part of,shapes,shapes,manipulates"
+Sophisticated Other,,,Wearable,,,loves
+State / Government,,,"Wearable / Cloud,Cloud",,"maintains,manage,regulates,regulates","elects,elects"
+State Budget,State / Government,,,,,"maintains,manage"
+Tools,,,,,,uses
+Tracker,,,,,"detects usage data,remembers,expose,generates",uses
+Training Data,,,"Wearable,Wearable,WILDCARD",,trains,"curates,modifies,analyses"
+Transport,,,Wearable,,,
+User,,,"Wearable,Wearable,WILDCARD,On Device Storage",,"elects,cares,buys from,loves,is part of,connects to,is part of,has,pays,has","regulates,insures"
+User Budget,,,,,,has
+Vendors,,,,,sells,buys from
+Voice AI,IoT Device,,Speech Recognition,,,"influences,trains"
+Waste Pickers,,,"WILDCARD,Wearable",,collects,
+Wifi-Router,,,Wearable,,connects to,"connects to,uses"
+Worker,,,,,,

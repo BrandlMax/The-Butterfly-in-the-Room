@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ID_Setup : MonoBehaviour
 {
+    public ParameterController parameterController;
     public GameObject parameters;
     public GameObject karte;
     public GameObject kartenContainer;
@@ -30,21 +31,34 @@ public class ID_Setup : MonoBehaviour
         cardsGenerated = true;
         for (int i = 0; i < parameters.transform.childCount; i++)
         {
+
             GameObject entry = parameters.transform.GetChild(i).gameObject;
-            GameObject newCard = Instantiate(karte);
-            Parameter para = entry.GetComponent<Parameter>();
-            newCard.GetComponent<Parameter>().parameterName = para.parameterName;
-            newCard.GetComponent<Parameter>().category = para.category;
-            newCard.GetComponent<Parameter>().actors = para.actors;
-            newCard.GetComponent<Parameter>().events = para.events;
-            newCard.GetComponent<Parameter>().isActive = para.isActive;
-            newCard.GetComponent<Parameter>().texture = para.texture;
-            newCard.GetComponent<Parameter>().sprite = para.sprite;
-            newCard.GetComponent<Renderer>().material.SetTexture("_BaseColorMap", newCard.GetComponent<Parameter>().texture);                
-            newCard.transform.position = kartenContainer.transform.position;
-            newCard.transform.parent = kartenContainer.transform;
-            // newCard.GetComponent<Rigidbody>().useGravity = true;
-            newCard.transform.name = entry.GetComponent<Parameter>().parameterName;
+            if(entry.GetComponent<Parameter>().parameterName == "WILDCARD")
+            {
+                // skip
+            } else
+            {
+                GameObject newCard = Instantiate(karte);
+                Parameter para = entry.GetComponent<Parameter>();
+                newCard.GetComponent<Parameter>().parameterName = para.parameterName;
+                newCard.GetComponent<Parameter>().category = para.category;
+                newCard.GetComponent<Parameter>().actors = para.actors;
+                newCard.GetComponent<Parameter>().events = para.events;
+                newCard.GetComponent<Parameter>().isActive = para.isActive;
+                newCard.GetComponent<Parameter>().texture = para.texture;
+                newCard.GetComponent<Parameter>().sprite = para.sprite;
+                
+                // Line Color
+                newCard.GetComponent<Parameter>().color = parameterController.getColorByCardname(para.parameterName);
+
+                newCard.GetComponent<Renderer>().material.SetTexture("_BaseColorMap", newCard.GetComponent<Parameter>().texture);                
+                newCard.transform.position = kartenContainer.transform.position;
+                newCard.transform.parent = kartenContainer.transform;
+                // newCard.GetComponent<Rigidbody>().useGravity = true;
+                newCard.transform.name = entry.GetComponent<Parameter>().parameterName;
+                parameterController.cardGameObjects.Add(newCard);
+                newCard.GetComponent<Parameter>().parameterController = parameterController;
+            }
         }
     }
 }

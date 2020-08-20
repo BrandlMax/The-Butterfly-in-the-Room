@@ -37,12 +37,15 @@ public class TableController : MonoBehaviour
 
     public void addCardToTable(Card card)
     {
-        // Add to list
-        cardsOnTable.Add(card);
-        addLines(card);
+        if (!cardsOnTable.Contains(card))
+        {
+            // Add to list
+            cardsOnTable.Add(card);
+            addLines(card);
 
-        // Add to parameterController
-        parameterController.addActiveParameter(card.GetComponent<Parameter>());
+            // Add to parameterController
+            parameterController.addActiveParameter(card.GetComponent<Parameter>());
+        }
     }
 
     void addLines(Card card)
@@ -72,6 +75,11 @@ public class TableController : MonoBehaviour
         lr_r.endWidth = lineWidth;
         lr_r.material = lineMaterial;
         card.lr_2 = lr_r;
+
+        // Colors
+        Color c = card.GetComponent<Parameter>().color;
+        card.lr_1.material.SetColor("_UnlitColor", c);
+        card.lr_2.material.SetColor("_UnlitColor", c);
     }
 
     void UpdateLine(Card card)
