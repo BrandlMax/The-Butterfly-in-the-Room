@@ -6,7 +6,7 @@ export default function Footer() {
     <section className="play" id="play">
       <iframe
         title="The Butterfly in the Room - Trailer"
-        src="https://player.vimeo.com/video/448994532"
+        src="https://player.vimeo.com/video/448994532?dnt=1"
         width="640"
         height="360"
         frameBorder="0"

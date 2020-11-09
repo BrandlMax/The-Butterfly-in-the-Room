@@ -38,6 +38,11 @@ section.textMedia {
   box-sizing: border-box;
 }
 
+
+.addInfo{
+  padding-top: 0px !important;
+}
+
 @media only screen and (max-width: 1080px) {
   .content {
     width: 60%;

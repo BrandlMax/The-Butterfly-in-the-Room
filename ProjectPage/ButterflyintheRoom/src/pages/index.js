@@ -67,12 +67,49 @@ The project deals with the question of how the invisible networks of actors are 
         type="png"
       />
 
+      <section className="textMedia">
+        <div className="content">
+          <h2>The Prototype</h2>
+        </div>
+        <div className="media">
+          <section className="play" id="play">
+
+            <iframe
+              title="The Butterfly in the Room - Trailer"
+              src="https://player.vimeo.com/video/449855722?dnt=1"
+              width="640"
+              height="360"
+              frameBorder="0"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+            ></iframe>
+
+          </section>
+        </div>
+      </section>
+
+
+
+
+
+
       <Downloads
         title="Interactive Preview (Sneak-Peek)"
         text={`
           Download and try our small interactive preview of the installation.
           `}
       />
+
+      <section className="textMedia addInfo">
+        <div className="content">
+          <p>The current version is not optimised and can cause problems on slow or older computers. Therefore we have here a small screen recording for demonstration.</p>
+        </div>
+        <div className="media">
+          <section className="play" id="play">
+            <iframe src="https://player.vimeo.com/video/449855834?dnt=1" width="640" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </section>
+        </div>
+      </section>
 
       <Feedback
         title="Feedback and suggestions"
@@ -84,7 +121,7 @@ The project deals with the question of how the invisible networks of actors are 
       <Context
         title="Context"
         text={`
-          This project was developed by <a href="https://www.portfolio.philippkaltofen.com/" target="_blank" rel="noreferrer">Philipp Kaltofen</a> and <a href="https://brandlmax.com/" target="_blank" rel="noreferrer">Maximilian Brandl</a> as the bachelor project in Interactive Media Design at the Darmstadt University of Applied Sciences.
+          This project was developed by <a href="https://philippkaltofen.com" target="_blank" rel="noreferrer">Philipp Kaltofen</a> and <a href="https://brandlmax.com/" target="_blank" rel="noreferrer">Maximilian Brandl</a> as the bachelor project in Interactive Media Design at the Darmstadt University of Applied Sciences.
           <br/><br/>
           It is based on their research about <a href="http://files.brandlmax.com/Entangled-Interface_Brandl_Kaltofen.pdf" target="_blank" rel="noreferrer">Entangled Interfaces</a>.
           <br/><br/>
